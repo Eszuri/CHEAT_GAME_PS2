@@ -1,0 +1,48 @@
+import '../Global.css'
+import Navbar from '../components/Navbar'
+import Menu from '../components/menu'
+import { Ps2Pagetitle } from '../components/PS2-PAGE-TITLE'
+import Ps2PageStepUsage from '../components/PS2-PAGE-STEP-USAGE'
+import Ps2PageControllerCode, { TextCaraPakai, TextCarapakaikodedengancontoller, TextH1 } from '../components/PS2-PAGE-CONTROLLER-CODE'
+import { BoilerplateRawPNACH, LinkSourceCode, SourceCode } from '../components/PS2-PAGE-CODE-PNACH'
+import Ps2PageDownloadLink from '../components/PS2_PAGE_DOWNLOAD_LINK'
+import Bukamenu from '../components/bukamenu'
+
+function MortalKombatShaolinMonk() {
+    return (
+        <>
+            <Navbar />
+            <Menu />
+            <Ps2Pagetitle
+                judul='Mortal Kombat - Shaolin Monks'
+                descJudul='Mortal Kombat - Shaolin Monks'
+                descSerial='SLUS-21087'
+                descCRC='455DD546'
+                descRegion='NTSC - U' />
+            <Ps2PageStepUsage namaFile='455DD546.pnach' />
+            <div className='mt-32'>
+                <TextCarapakaikodedengancontoller />
+                <Ps2PageControllerCode Titlekode='1. Membuka Karakter Scorpion: ' kode='Tahan L2, kotak, atas, L1, R1, kiri, kanan, kotak' />
+                <Ps2PageControllerCode Titlekode="2. Membuka Karakter Sub-Zero: " kode="Tahan L2, kotak, bawah, atas, L1, L1, atas, kotak" />
+                <Ps2PageControllerCode Titlekode="3. Membuka Mode Arcade: " kode="Tahan L2, kotak, atas, bawah, kanan, kiri, R2, kotak" />
+                <TextH1 H1="Cara Pakai Kode" />
+                <TextCaraPakai usage='1. Masuk ke Game, Klik Start (tetap di loby)' />
+                <TextCaraPakai usage='2. masukan kode dengan cara :' />
+                <TextCaraPakai usage='3. Tekan lama L2 jangan sampe lepas' />
+                <TextCaraPakai usage='4. dan pencet kode diatas (dimulai dari kotak)' />
+                <TextCaraPakai usage='5. Sampe bunyi "tung" berarti berhasil' />
+            </div>
+            <BoilerplateRawPNACH urlFile="/455DD546.pnach" />
+            <SourceCode />
+            <LinkSourceCode urlSumberKode="https://www.google.com/" namaSumberKode="1. Google" />
+            <Ps2PageDownloadLink
+                namaFile="455DD546.pnach"
+                dateFile="2023"
+                sizeFile="44.4 KB"
+            />
+            <Bukamenu />
+        </>
+    )
+}
+
+export default MortalKombatShaolinMonk

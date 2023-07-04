@@ -1,0 +1,200 @@
+gametitle=Def Jam Fight for NY [SLUS 21004] (U)
+comment=
+//------------->[Profile 1 Related Codes]
+// Infinite Money 
+patch=1,EE,108EC200,extended,0000FFFF
+
+// Max Money 
+patch=1,EE,208EC200,word,05F5E0FF
+
+// Infinite Dev Points 
+patch=1,EE,108EC208,extended,0000FFFF
+
+// Max Dev Points 
+patch=1,EE,108EC208,extended,05F5E0FF
+//------------->[Profile 1 Related Codes]---END
+
+//------------->[Profile 2 Related Codes]
+// Infinite Money 
+patch=1,EE,108F1B60,extended,0000FFFF
+
+// Max Money 
+patch=1,EE,208F1B60,word,05F5E0FF
+
+// Infinite Dev Points 
+patch=1,EE,108F1B68,extended,0000FFFF
+
+// Max Dev Points 
+patch=1,EE,108F1B68,extended,05F5E0FF
+//------------->[Profile 2 Related Codes]---END
+
+//------------->[Profile 3 Related Codes]
+// Infinite Money 
+patch=1,EE,108F74C0,extended,0000FFFF
+
+// Max Money 
+patch=1,EE,208F74C0,word,05F5E0FF
+
+// Infinite Dev Points 
+patch=1,EE,108F74C8,extended,0000FFFF
+
+// Max Dev Points 
+patch=1,EE,108F74C8,extended,05F5E0FF
+//------------->[Profile 3 Related Codes]---END
+
+//------------->[P1 Related Codes]
+// Infinite Health P1(HP)
+patch=1,EE,204BC4C0,word,43FA0000
+patch=1,EE,204BC4C4,word,43FA0000
+patch=1,EE,204BC4C8,word,43FA0000
+
+// No Health P1(HP)
+/patch=1,EE,204BC4C0,word,00000000
+
+// Infinite Health All Body Parts P1(Head, Arms and Legs)
+patch=1,EE,204BC990,word,42480000
+patch=1,EE,204BC998,word,42480000
+patch=1,EE,204BC99C,word,42480000
+
+// Max Momentum P1
+patch=1,EE,204BC4D4,word,42C80000
+
+// Quick Score Gain P1
+patch=1,EE,104BC5F0,extended,0000FFFF
+
+// No Health for Body Parts P1(Head, Arms and Legs)
+/patch=1,EE,204BC990,word,00000000
+/patch=1,EE,204BC998,word,00000000
+/patch=1,EE,204BC99C,word,00000000
+//------------->[P1 Related Codes]---END
+
+//------------->[P2 Related Codes]
+// Infinite Health P2 
+/patch=1,EE,204BD7B8,word,43FA0000
+/patch=1,EE,204BD7BC,word,43FA0000
+/patch=1,EE,204BD7C0,word,43FA0000
+
+// No Health P2 
+/patch=1,EE,204BD7B8,word,00000000
+
+// Max Momentum P2 
+/patch=1,EE,204BD7CC,word,42C80000
+
+// Quick Score Gain P2 
+/patch=1,EE,104BD8E8,extended,0000FFFF
+
+// Infinite Health All Body Parts P2(Head, Arms and Legs)
+/patch=1,EE,204BDC88,word,42480000
+/patch=1,EE,204BDC90,word,42480000
+/patch=1,EE,204BDC94,word,42480000
+
+// No Health for Body Parts P2(Head, Arms and Legs)
+/patch=1,EE,204BDC88,word,00000000
+/patch=1,EE,204BDC90,word,00000000
+/patch=1,EE,204BDC94,word,00000000
+//------------->[P2 Related Codes]---END
+
+//------------->[P3 Related Codes]
+// Infinite Health P3 
+/patch=1,EE,204BEAB0,word,43FA0000
+/patch=1,EE,204BEAB4,word,43FA0000
+/patch=1,EE,204BEAB8,word,43FA0000
+
+// No Health P3 
+/patch=1,EE,204BEAB0,word,00000000
+
+// Max Momentum P3 
+/patch=1,EE,204BEAC4,word,42C80000
+
+// Quick Score Gain P3 
+/patch=1,EE,104BEBE0,extended,0000FFFF
+
+// Infinite Body Parts Health P3(Head, Arms and Legs) 
+/patch=1,EE,204BEF80,word,42480000
+/patch=1,EE,204BEF88,word,42480000
+/patch=1,EE,204BEF8C,word,42480000
+
+// No Health for Body Parts P3(Head, Arms and Legs)
+/patch=1,EE,204BEF80,word,00000000
+/patch=1,EE,204BEF88,word,00000000
+/patch=1,EE,204BEF8C,word,00000000
+//------------->[P3 Related Codes]---END
+
+//------------->[P4 Related Codes]
+// Infinite Health P4 
+/patch=1,EE,204BFDA8,word,43FA0000
+/patch=1,EE,204BFDAC,word,43FA0000
+/patch=1,EE,204BFDB0,word,43FA0000
+
+// No Health P4 
+/patch=1,EE,204BFDA8,word,00000000
+
+// Max Momentum P4 
+/patch=1,EE,204BFDBC,word,42C80000
+
+// Quick Score Gain P4 
+/patch=1,EE,104BFED8,extended,0000FFFF
+
+// Infinite Body Parts Health P4(Head, Arms and Legs)  
+/patch=1,EE,204C0278,word,42480000
+/patch=1,EE,204C0280,word,42480000
+/patch=1,EE,204C0284,word,42480000
+
+// No Health for Body Parts P4(Head, Arms and Legs)
+/patch=1,EE,204C0278,word,00000000
+/patch=1,EE,204C0280,word,00000000
+/patch=1,EE,204C0284,word,00000000
+//------------->[P4 Related Codes]---END
+
+//------------->[Rewards Related Codes]
+// Max Points 
+patch=1,EE,208EAB50,word,0001869F
+
+// Buying Fighters Doesnt Decrease Points 
+patch=1,EE,2014C00C,word,00000000
+
+// Buying Fighters Increases Points 
+patch=1,EE,2014C008,word,00621821
+
+// Buying Venues Doesnt Decrease Points 
+patch=1,EE,2014C9CC,word,00000000
+
+// Buying Venues Increases Points 
+patch=1,EE,2014C9C8,word,00621821
+
+// Unlock All Venues 
+patch=1,EE,208EAB10,word,00000018
+patch=1,EE,408EBD6C,word,00180001
+patch=1,EE,17000000,word,00000001
+
+// Unlock All Fighters 
+patch=1,EE,208EAB24,word,0000004B
+patch=1,EE,408EBDE4,word,004B0001
+patch=1,EE,07000000,word,00000001
+//------------->[Rewards Related Codes]---END
+
+//------------->[StoryMode Related Codes]
+// Access All Gear 
+patch=1,EE,200C0220,word,240300FF
+patch=1,EE,200C0224,word,080D85B3
+patch=1,EE,200C0228,word,A0430000
+patch=1,EE,203616C8,word,08030088
+
+// Access All Moves 
+patch=1,EE,200C0230,word,240200FF
+patch=1,EE,200C0234,word,080D852F
+patch=1,EE,200C0238,word,A0620000
+patch=1,EE,203614B8,word,0803008C
+
+// Buying Gear Doesnt Decrease Overall Money 
+patch=1,EE,201042D0,word,00000000
+
+// Buying Gear Increases Overall Money 
+patch=1,EE,201042CC,word,00651021
+
+// Training/Learning Doesnt Decrease Dev Points 
+patch=1,EE,20147474,word,00000000
+
+// Training/Learning Increases Dev Points 
+patch=1,EE,2014746C,word,00561021
+//------------->[StoryMode Related Codes]---END

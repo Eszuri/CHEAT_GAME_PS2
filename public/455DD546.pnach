@@ -1,0 +1,52 @@
+gametitle = Mortal Kombat - Shaolin Monks - NTSC U
+
+// INFINITE BRUTALITY
+patch=1,EE,20177640,extended,C6010004
+patch=1,EE,20177654,extended,E4414BB8
+
+// Unlock Mortal Kombat II
+patch=1,EE,205D82B0,extended,00000001
+
+// Low Game Time
+patch=1,EE,201D7464,extended,AC800000
+
+// Buying Moves Does Not Decrease Exp
+patch=1,EE,20174C64,extended,00000000
+
+// Infinite Energy
+patch=1,EE,20169514,extended,00000000
+
+// Max Exp "999999999"
+patch=1,EE,20C2E224,extended,3B9AC9FF
+
+// Max Health
+patch=1,EE,201EB0B0,extended,8C8203A0
+patch=1,EE,201EB0B4,extended,AC820398
+
+// Disable Characters Texture Skinning
+patch=1,EE,00235918,word,00000000
+patch=1,EE,0023E168,word,00000000
+patch=1,EE,003672E0,word,00000000
+
+// Disable Light on Characters Skills
+patch=1,EE,0037947C,word,00000000
+
+// Disable Fatality Fog Filter
+patch=1,EE,00226CC0,word,00000000
+
+// Disable Characters Shadow
+patch=1,EE,004F4BAC,byte,0
+patch=1,EE,004F5088,byte,0
+
+// Disable Characters Glow Effect
+patch=1,EE,004F5094,byte,0
+
+// Disable Bloom
+patch=1,EE,004F4B68,byte,0
+
+// Disable Fog
+patch=1,EE,004F4C08,byte,0
+
+// Debug mode
+patch=1,EE,204C6FE0,extended,0000019F
+patch=1,EE,204C6FE4,extended,001AAE80
