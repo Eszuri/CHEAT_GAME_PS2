@@ -7,7 +7,7 @@ function report() {
         <>
             <section className="pt-14 pb-14 text-white  w-[90%] mr-auto ml-auto">
                 <h1 className="text-center font-bold text-3xl">Laporkan / Request</h1>
-                <form action="" method="GET" className="pt-16">
+                <form id='formKomentar' className="pt-16">
                     <div className="flex max-[639px]:block">
                         <div className="w-full pr-[2%] max-[639px]:pr-[0%]">
                             {/* nama */}
@@ -50,6 +50,7 @@ function report() {
                             placeholder="Ketikkan Saran atau Pendapat anda disini"
                             spellCheck="true"
                             defaultValue={""}
+                            required
                         />
                         {/* button kirim */}
                         <button
