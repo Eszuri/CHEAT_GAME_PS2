@@ -5,14 +5,14 @@ import { getDatabase, ref, push, set } from "firebase/database";
 import { Link } from 'react-router-dom';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCw-m1oiHFxe6Qw-TZAxEcomL5CLljejyM",
-    authDomain: "cheatps2report.firebaseapp.com",
-    databaseURL: "https://cheatps2report-default-rtdb.firebaseio.com",
-    projectId: "cheatps2report",
-    storageBucket: "cheatps2report.appspot.com",
-    messagingSenderId: "266255138006",
-    appId: "1:266255138006:web:2504b788f677aacda39d77",
-    measurementId: "G-Q27EVX2Y9D"
+    apiKey: import.meta.env.VITE_API_KEY,
+    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+    databaseURL: import.meta.env.VITE_DATABASE_URL,
+    projectId: import.meta.env.VITE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_MESSAGE_SEND_ID,
+    appId: import.meta.env.VITE_APP_ID,
+    measurementId: import.meta.env.VITE_MEASURE_ID
 };
 
 // Initialize Firebase
