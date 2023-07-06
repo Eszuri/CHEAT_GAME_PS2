@@ -5,6 +5,7 @@ import DefJamForNy from './list-cheat/DefJamForNy';
 import FailedUrl from './components/FailedUrl';
 import Home from './home';
 import Report from './components/report';
+
 function App() {
   document.body.style.backgroundColor = "#202c33";
   return (
@@ -16,7 +17,6 @@ function App() {
         <Route path="/defjam" element={<DefJamForNy />} />
         {/* 404 Not Found */}
         <Route path="*" element={<FailedUrl />} />
-
       </Routes>
     </>
   )
