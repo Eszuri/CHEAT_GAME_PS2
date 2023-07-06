@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /report
+
+Sitemap: https://cheat-game-ps2.vercel.app/sitemap.xml
