@@ -16,6 +16,7 @@ function App() {
         <Route path="/defjam" element={<DefJamForNy />} />
         {/* 404 Not Found */}
         <Route path="*" element={<FailedUrl />} />
+        <Route path='/sitemap.xml' element="/sitemap.xml" />
       </Routes>
     </>
   )
