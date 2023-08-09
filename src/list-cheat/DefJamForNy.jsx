@@ -62,7 +62,7 @@ function DefJamForNy() {
             </div>
             <BoilerplateRawPNACH urlFile="/4538436F.pnach" />
             <SourceCode />
-            <LinkSourceCode urlSumberKode="https://www.google.com/" namaSumberKode="1. Google" />
+            <LinkSourceCode urlSumberKode="https://gamehacking.org/game/103490" namaSumberKode="1. GameHacking" />
             <Ps2PageDownloadLink
                 namaFile="4538436F.pnach"
                 dateFile="2023"
