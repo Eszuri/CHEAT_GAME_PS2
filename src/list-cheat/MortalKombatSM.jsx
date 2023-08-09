@@ -34,7 +34,9 @@ function MortalKombatShaolinMonk() {
             </div>
             <BoilerplateRawPNACH urlFile="/455DD546.pnach" />
             <SourceCode />
-            <LinkSourceCode urlSumberKode="https://www.google.com/" namaSumberKode="1. Google" />
+            <LinkSourceCode urlSumberKode="https://www.facebook.com/groups/603939780725137/posts/675359970249784/" namaSumberKode="1. Facebook" />
+            <LinkSourceCode urlSumberKode="http://khanifa7x.blogspot.com/2017/12/kode-raw-mortal-kombat-shaolin-monks.html" namaSumberKode="2. Blogger" />
+            <LinkSourceCode urlSumberKode="https://gamehacking.org/game/104317" namaSumberKode="3. GameHacking" />
             <Ps2PageDownloadLink
                 namaFile="455DD546.pnach"
                 dateFile="2023"
