@@ -5,6 +5,7 @@ import DefJamForNy from './list-cheat/DefJamForNy';
 import FailedUrl from './components/FailedUrl';
 import Home from './home';
 import Report from './components/report';
+import DigimonRumbleArena2 from './list-cheat/DigimonRumbleArena2';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/report" element={<Report />} />
         <Route path="/mksm" element={<MortalKombatShaolinMonk />} />
         <Route path="/defjam" element={<DefJamForNy />} />
+        <Route path="/digruma2" element={<DigimonRumbleArena2 />} />
         {/* 404 Not Found */}
         <Route path="*" element={<FailedUrl />} />
       </Routes>

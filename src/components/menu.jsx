@@ -78,7 +78,7 @@ function Menu() {
                     <div className='mt-10' id='ScrollD'>
                         <ul className='text-lg'>D
                             <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/defjam"} onClick={tutupTabClick}>DEF JAM - FIGHT FOR NY</Link></li>
-                            <li className='flex flex-nowrap'>├── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
+                            <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/digruma2"} onClick={tutupTabClick}>DIGIMON RUMBLE ARENA 2</Link></li>
                             <li className='flex flex-nowrap'>├── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
                             <li className='flex flex-nowrap'>└── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
                         </ul>

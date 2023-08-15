@@ -10,7 +10,7 @@ function Ps2PageDownloadLink(props) {
                 <p className='text-base font-semibold mt-5'>{props.namaFile}</p>
                 <img src={PnachLogo} alt="pnach logo" className='w-24' />
                 <p className='text-base font-semibold mt-5'>Tanggal dibuat : <span className='text-green-500'>{props.dateFile}</span></p>
-                <p className='text-base font-semibold'>Size file .pnach : <span className='text-green-500'>{props.sizeFile}</span></p>
+                <p className='text-base font-semibold'>Size file : <span className='text-green-500'>{props.sizeFile}</span></p>
                 <a href={props.namaFile} download={props.namaFile} className="inline-block"><img src={LogoDownload} alt="Logo Download" className='w-36 mt-1 rounded cursor-pointer' /></a>
                 <h1 className='text-center text-green-600 font-bold text-xl uppercase mt-20 mb-0'>terima kasih telah berkunjung</h1>
             </section>
