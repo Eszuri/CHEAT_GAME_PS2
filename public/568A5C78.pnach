@@ -51,20 +51,20 @@ patch=1,EE,200C0018,extended,AC610240
 //patch=1,EE,200C0064,extended,AC610240
 
 // NO DIGIMETER PLAYER 1
-patch=1,EE,200C0014,extended,3C010000
-patch=1,EE,200C0018,extended,AC610240
+//patch=1,EE,200C0014,extended,3C010000
+//patch=1,EE,200C0018,extended,AC610240
 
 // NO DIGIMETER PLAYER 2
-patch=1,EE,200C0028,extended,3C010000
-patch=1,EE,200C002C,extended,AC610240
+//patch=1,EE,200C0028,extended,3C010000
+//patch=1,EE,200C002C,extended,AC610240
 
 // NO DIGIMETER PLAYER 3
-patch=1,EE,200C0044,extended,3C010000
-patch=1,EE,200C0048,extended,AC610240
+//patch=1,EE,200C0044,extended,3C010000
+//patch=1,EE,200C0048,extended,AC610240
 
 // NO DIGIMETER PLAYER 4
-patch=1,EE,200C0060,extended,3C010000
-patch=1,EE,200C0064,extended,AC610240
+//patch=1,EE,200C0060,extended,3C010000
+//patch=1,EE,200C0064,extended,AC610240
 
 // NO HEALTH PLAYER 1
 //patch=1,EE,200C000C,extended,3C010000

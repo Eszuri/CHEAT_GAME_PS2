@@ -20,7 +20,7 @@ export function BoilerplateRawPNACH(props) {
     return (
         <>
             <section className='w-[95%] mr-auto ml-auto text-white'>
-                <h1 className='font-medium text-xl border-b-2 border-green-600 inline-block mt-32 mb-7'>Kode Raw Pnach</h1>
+                <h1 className='font-medium text-xl border-b-2 border-green-600 inline-block mt-32 mb-7'>Kode Pnach</h1>
                 <div className='flex mb-[37px]'>
                     <h1 className='cursor-pointer absolute z-[1] inline-block w-32 bg-slate-600 text-xl rounded-md p-1 text-center hover:bg-slate-500' onClick={() => {
                         const textToCopy = document.getElementById("pnachKode").innerText;
