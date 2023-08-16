@@ -1,4 +1,4 @@
-gametitle = DEF JAM FIGHT - FOR NY (NTSC-U)
+gametitle = Def Jam Fight - For NY (NTSC-U)
 
 // INFINITE HEALTH PLAYER 1
 patch=1,EE,204BC4C0,extended,43FA0000
