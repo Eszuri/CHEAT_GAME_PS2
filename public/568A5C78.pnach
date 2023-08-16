@@ -1,3 +1,5 @@
+gametitle=DIGIMON RUMBLE ARENA 2 (NTSC-U)
+
 // Enable Code
 patch=1,EE,FE129B51,extended,800813BF
 patch=1,EE,000FFFFE,extended,00000088

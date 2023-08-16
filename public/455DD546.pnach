@@ -1,4 +1,4 @@
-gametitle = Mortal Kombat - Shaolin Monks - NTSC U
+gametitle = Mortal Kombat - Shaolin Monks (NTSC-U)
 
 // Unlock Sub-Zero
 patch=1,EE,205D82B4,extended,00000001
