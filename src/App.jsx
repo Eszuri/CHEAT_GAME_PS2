@@ -6,6 +6,7 @@ import FailedUrl from './components/FailedUrl';
 import Home from './home';
 import Report from './components/report';
 import DigimonRumbleArena2 from './list-cheat/DigimonRumbleArena2';
+import GodHand from './list-cheat/GodHand';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/mksm" element={<MortalKombatShaolinMonk />} />
         <Route path="/defjam" element={<DefJamForNy />} />
         <Route path="/digruma2" element={<DigimonRumbleArena2 />} />
+        <Route path="/godhand" element={<GodHand />} />
         {/* 404 Not Found */}
         <Route path="*" element={<FailedUrl />} />
       </Routes>
