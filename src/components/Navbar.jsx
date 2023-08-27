@@ -12,7 +12,7 @@ export default function Navbar(props) {
                     </Link>
                 </div>
                 <div className='text-right w-full whitespace-nowrap'>
-                    <Link className='text-xl font-bold mr-5 hover:border-b-2 border-b-green-600 cursor-pointer ' to={`/report`} onClick={() => { document.getElementById("bukaMenu").style.right = "100%"; window.scrollTo(0, 0) }}>Laporkan</Link>
+                    <Link className='text-xl font-bold mr-5 hover:border-b-2 border-b-green-600 cursor-pointer ' to={`/report`} onClick={() => { document.getElementById("bukaMenu").style.right = "100%"; window.scrollTo(0, 0) }}>Laporkan/Request</Link>
                 </div>
             </section>
         </>
