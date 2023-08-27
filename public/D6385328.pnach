@@ -1,3 +1,5 @@
+gametitle = God Of War (NTSC-U)
+
 // PRESS SELECT FOR SKIP FMV
 patch=1,EE,D02FDA9C,extended,0000FFFE
 patch=1,EE,2026FF78,extended,24020001
