@@ -103,7 +103,7 @@ function Menu() {
                         <ul className='text-lg'>G
                             <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/godhand"} onClick={tutupTabClick}>GOD HAND</Link></li>
                             <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/godofwar"} onClick={tutupTabClick}>GOD OF WAR</Link></li>
-                            <li className='flex flex-nowrap'>├── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
+                            <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/godofwar2"} onClick={tutupTabClick}>GOD OF WAR ||</Link></li>
                             <li className='flex flex-nowrap'>└── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
                         </ul>
                     </div>
