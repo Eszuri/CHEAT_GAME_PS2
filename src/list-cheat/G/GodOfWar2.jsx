@@ -9,7 +9,7 @@ import Ps2PageDownloadLink from '../../components/PS2_PAGE_DOWNLOAD_LINK'
 import Bukamenu from '../../components/bukamenu'
 
 
-export default function GodOfWar() {
+export default function GodOfWar2() {
     return (
         <>
             <Navbar />

@@ -8,6 +8,7 @@ import DefJamForNy from './list-cheat/D/DefJamForNy';
 import DigimonRumbleArena2 from './list-cheat/D/DigimonRumbleArena2';
 import GodHand from './list-cheat/G/GodHand';
 import GodOfWar from './list-cheat/G/GodOfWar';
+import GodOfWar2 from './list-cheat/G/GodOfWar2';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -21,6 +22,7 @@ function App() {
         <Route path="/digruma2" element={<DigimonRumbleArena2 />} />
         <Route path="/godhand" element={<GodHand />} />
         <Route path="/godofwar" element={<GodOfWar />} />
+        <Route path="/godofwar2" element={<GodOfWar2 />} />
         {/* 404 Not Found */}
         <Route path="*" element={<FailedUrl />} />
       </Routes>
