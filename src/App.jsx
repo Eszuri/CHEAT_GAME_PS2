@@ -1,13 +1,13 @@
 import './Global.css'
 import { Routes, Route } from "react-router-dom";
-import MortalKombatShaolinMonk from './list-cheat/MortalKombatSM';
-import DefJamForNy from './list-cheat/DefJamForNy';
 import FailedUrl from './components/FailedUrl';
 import Home from './home';
 import Report from './components/report';
-import DigimonRumbleArena2 from './list-cheat/DigimonRumbleArena2';
-import GodHand from './list-cheat/GodHand';
-import GodOfWar from './list-cheat/GodOfWar';
+import MortalKombatShaolinMonk from './list-cheat/M/MortalKombatSM';
+import DefJamForNy from './list-cheat/D/DefJamForNy';
+import DigimonRumbleArena2 from './list-cheat/D/DigimonRumbleArena2';
+import GodHand from './list-cheat/G/GodHand';
+import GodOfWar from './list-cheat/G/GodOfWar';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
