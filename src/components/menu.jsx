@@ -190,7 +190,7 @@ function Menu() {
                     <div className='mt-10' id='ScrollR'>
                         <ul className='text-lg'>R
                             <li className='flex flex-nowrap'>├── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
-                            <li className='flex flex-nowrap'>├── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
+                            <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/rumbleracing"} onClick={tutupTabClick}>Rumble Racing</Link></li>
                             <li className='flex flex-nowrap'>├── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
                             <li className='flex flex-nowrap'>└── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
                         </ul>
