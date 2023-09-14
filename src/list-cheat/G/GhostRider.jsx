@@ -27,7 +27,7 @@ export default function GhostRider() {
             </div>
             <BoilerplateRawPNACH urlFile="FA6D7EEA.pnach" />
             <SourceCode />
-            <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4452-title-god+of+war+ii.html" namaSumberKode="1. CodeTwink" />
+            <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4444-title-ghost+rider.html" namaSumberKode="1. CodeTwink" />
             <Ps2PageDownloadLink
                 namaFile="FA6D7EEA.pnach"
                 dateFile="13 September 2023"
