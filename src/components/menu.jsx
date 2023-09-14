@@ -101,10 +101,10 @@ function Menu() {
                     </div>
                     <div className='mt-10' id='ScrollG'>
                         <ul className='text-lg'>G
+                            <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/ghostrider"} onClick={tutupTabClick}>GHOST RIDER</Link></li>
                             <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/godhand"} onClick={tutupTabClick}>GOD HAND</Link></li>
                             <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/godofwar"} onClick={tutupTabClick}>GOD OF WAR</Link></li>
-                            <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/godofwar2"} onClick={tutupTabClick}>GOD OF WAR ||</Link></li>
-                            <li className='flex flex-nowrap'>└── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
+                            <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/godofwar2"} onClick={tutupTabClick}>GOD OF WAR II</Link></li>
                         </ul>
                     </div>
                     <div className='mt-10' id='ScrollH'>
