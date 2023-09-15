@@ -31,7 +31,7 @@ export default function GhostRider() {
             <Ps2PageDownloadLink
                 namaFile="FA6D7EEA.pnach"
                 dateFile="13 September 2023"
-                sizeFile="1,59 KB"
+                sizeFile="1,19 KB"
             />
             <Bukamenu />
         </>
