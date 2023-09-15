@@ -3,6 +3,9 @@ gametitle=Ghost Rider (NTSC-U)
 // UNLOCK ALL CHEATS
 patch=1,EE,206BD890,extended,00000001
 
+// QUICK MAX SOULS USAGE
+patch=1,EE,2013D974,extended,00000000
+
 // UNLOCK ALL COMICS
 patch=1,EE,206BDD68,extended,00000004
 patch=1,EE,206BDDA8,extended,00000001
