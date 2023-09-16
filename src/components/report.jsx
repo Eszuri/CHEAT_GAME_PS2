@@ -78,7 +78,7 @@ function report() {
                             cols={30}
                             rows={10}
                             className="font-semibold bg-slate-300 outline outline-1 rounded w-full flex focus:outline-[#1B74E4] focus:outline-4 text-black p-2 caret-[#1B74E4] placeholder:font-medium placeholder:text-slate-600"
-                            placeholder="Ketikkan Saran atau Pendapat anda disini"
+                            placeholder="Ketikkan laporan atau request anda disini"
                             spellCheck="true"
                             onChange={(e) => setKomentar(e.target.value)}
                             defaultValue={""}
