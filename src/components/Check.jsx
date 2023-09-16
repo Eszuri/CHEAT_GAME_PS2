@@ -1,4 +1,4 @@
-export function Check() {
+export function Check(props) {
     return (
         <>
             <section className="fixed inset-x-0 inset-y-0 m-auto invisible" id="check" style={{ backgroundColor: 'rgba(0, 0, 0,0.8)' }}>
@@ -11,7 +11,7 @@ export function Check() {
                             </svg>
                         </div>
                     </div>
-                    <h1 className="font-bold text-4xl uppercase text-white mt-5">Mengecek</h1>
+                    <h1 className="font-bold text-4xl uppercase text-white mt-5">{props.loadingtext}</h1>
                 </div>
             </section>
         </>

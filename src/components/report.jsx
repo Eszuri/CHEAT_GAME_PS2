@@ -32,7 +32,7 @@ function report() {
 
     return (
         <>
-            <Check />
+            <Check loadingtext="mengecek" />
             <section className="pt-14 pb-14 text-white  w-[90%] mr-auto ml-auto">
                 <h1 className="text-center font-bold text-3xl">Laporkan / Request</h1>
                 <form action="" onSubmit={handleSubmit} className="pt-16">
