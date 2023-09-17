@@ -7,7 +7,7 @@ import { Check } from './Check';
 
 export function BoilerplateRawPNACH(props) {
     const [content, setContent] = useState('');
-
+    const [Copied, setCopied] = useState('');
     useEffect(() => {
         document.getElementById('check').style.visibility = "visible"
         fetch(props.urlFile)
@@ -26,17 +26,26 @@ export function BoilerplateRawPNACH(props) {
             <section className='w-[95%] mr-auto ml-auto text-white'>
                 <h1 className='font-medium text-xl border-b-2 border-green-600 inline-block mt-32 mb-7'>Kode Pnach</h1>
                 <div className='flex mb-[37px]'>
-                    <h1 className='bg-emerald-700 p-2 pl-3 pr-3 absolute rounded-md text-xl' id='copied'>berhasil tersalin</h1>
+                    <div style={{ width: '0%' }} className='z-10 duration-300 text-center fixed top-14 left-0 flex justify-center items-center overflow-hidden' id='copied'><h1 className='text-center w-[80%] h-10 flex justify-center items-center rounded text-xl font-sans font-bold' id='copied2'>{Copied}</h1></div>
                     <h1 className='cursor-pointer absolute inline-block w-44 bg-slate-600 text-2xl rounded-md p-[6px] text-center hover:bg-slate-500 active:bg-slate-700' onClick={() => {
                         const textToCopy = document.getElementById("pnachKode").innerText;
                         navigator.clipboard.writeText(textToCopy)
                             .then(function () {
-                                document.getElementById("copied").classList.add("kopi-muncul");
+                                // document.getElementById("copied").classList.add("kopi-muncul");
+                                document.getElementById("copied2").style.backgroundColor = "rgb(0, 173, 32)"
+                                setCopied('Kode Berhasil DiSalin')
+                                document.getElementById("copied").style.width = "100%";
+                                setTimeout(function () {
+                                    document.getElementById("copied").style.width = "0%";
+                                }, 2000);
                             })
                             .catch(function () {
-                                alert("gagal menyalin");
+                                document.getElementById("copied2").style.backgroundColor = "rgb(190, 0, 0)";
+                                setCopied('Kode Gagal DiSalin');
+                                setTimeout(function () {
+                                    document.getElementById("copied").style.width = "0%";
+                                }, 2000);
                             });
-                        setTimeout(() => { document.getElementById("copied").classList.remove("kopi-muncul") }, 2300);
                     }}>Salin Kode</h1>
                 </div>
                 <div className='p-1'></div>
