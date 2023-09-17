@@ -61,8 +61,10 @@ function DefJamForNy() {
                 <TextCaraPakai usage="4. Masukan kode diatas " />
             </div>
             <BoilerplateRawPNACH urlFile="/4538436F.pnach" />
-            <SourceCode />
+            <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/103490" namaSumberKode="1. GameHacking" />
+            <SourceCode text="Sumber Game :" />
+            <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41688/Def_Jam_-_Fight_for_NY.php" namaSumberKode="1. CoolRom" />
             <Ps2PageDownloadLink
                 namaFile="4538436F.pnach"
                 dateFile="2023"

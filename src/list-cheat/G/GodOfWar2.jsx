@@ -26,9 +26,11 @@ export default function GodOfWar2() {
                 <Ps2PageControllerCode Titlekode='Saat ini belom ada ' />
             </div>
             <BoilerplateRawPNACH urlFile="/2F123FD8.pnach" />
-            <SourceCode />
+            <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4452-title-god+of+war+ii.html" namaSumberKode="1. CodeTwink" />
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/103833" namaSumberKode="2. GameHacking" />
+            <SourceCode text="Sumber Game :" />
+            <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41805/God_of_War_II.php" namaSumberKode="1. CoolRom" />
             <Ps2PageDownloadLink
                 namaFile="2F123FD8.pnach"
                 dateFile="29 Agustus 2023"

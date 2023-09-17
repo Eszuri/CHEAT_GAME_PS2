@@ -26,8 +26,10 @@ export default function GodHand() {
                 <Ps2PageControllerCode Titlekode='Saat ini belom ada ' />
             </div>
             <BoilerplateRawPNACH urlFile="/6FB69282.pnach" />
-            <SourceCode />
+            <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4378-title-god+hand.html" namaSumberKode="1. CodeTwink" />
+            <SourceCode text="Sumber Game :" />
+            <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41906/God_Hand.php" namaSumberKode="1. CoolRom" />
             <Ps2PageDownloadLink
                 namaFile="6FB69282.pnach"
                 dateFile="19 Agustus 2023"

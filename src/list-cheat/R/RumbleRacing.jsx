@@ -26,8 +26,10 @@ export default function RumbleRacing() {
                 <Ps2PageControllerCode Titlekode='Saat ini belom ada ' />
             </div>
             <BoilerplateRawPNACH urlFile="/2F5354BE.pnach" />
-            <SourceCode />
+            <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/104814" namaSumberKode="1. GameHacking" />
+            <SourceCode text="Sumber Game :" />
+            <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/45395/Rumble_Racing.php" namaSumberKode="1. CoolRom" />
             <Ps2PageDownloadLink
                 namaFile="2F5354BE.pnach"
                 dateFile="12 September 2023"

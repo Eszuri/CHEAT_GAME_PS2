@@ -33,10 +33,12 @@ function MortalKombatShaolinMonk() {
                 <TextCaraPakai usage='5. Sampe bunyi "tung" berarti berhasil' />
             </div>
             <BoilerplateRawPNACH urlFile="/455DD546.pnach" />
-            <SourceCode />
+            <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://www.facebook.com/groups/603939780725137/posts/675359970249784/" namaSumberKode="1. Facebook" />
             <LinkSourceCode urlSumberKode="http://khanifa7x.blogspot.com/2017/12/kode-raw-mortal-kombat-shaolin-monks.html" namaSumberKode="2. Blogger" />
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/104317" namaSumberKode="3. GameHacking" />
+            <SourceCode text="Sumber Game :" />
+            <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41803/Mortal_Kombat_-_Shaolin_Monks.php" namaSumberKode="1. CoolRom" />
             <Ps2PageDownloadLink
                 namaFile="455DD546.pnach"
                 dateFile="2023"

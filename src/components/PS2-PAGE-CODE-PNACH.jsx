@@ -60,7 +60,7 @@ export function SourceCode(props) {
     return (
         <>
             <section className='w-[95%] mr-auto ml-auto text-white mt-5'>
-                <h1 className='text-xl'><span className='text-yellow-300'>Sumber Kode :</span> {props.catatan}</h1>
+                <h1 className='text-xl'><span className='text-yellow-300'>{props.text}</span></h1>
             </section>
         </>
     )
