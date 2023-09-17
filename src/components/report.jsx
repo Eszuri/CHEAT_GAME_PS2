@@ -29,7 +29,6 @@ function report() {
             })
             .catch(function () { alert("GAGAL TERKIRIM MEN"); document.getElementById('check').style.visibility = "hidden"; })
     };
-
     return (
         <>
             <Check loadingtext="mengecek" />
@@ -87,13 +86,16 @@ function report() {
                         {/* button kirim */}
                         <button
                             type="submit"
-                            className="w-full bg-[#1B74E4] rounded text-white h-10 text-2xl hover:bg-[#1063c8] max-[639px]:text-xl mt-5"
+                            className="w-full bg-[#1B74E4] rounded text-white h-12 text-2xl hover:bg-[#1063c8] max-[639px]:text-xl mt-5"
                         >
                             Kirim
                         </button>
                     </div>
                 </form>
-                <Link className='mt-24 pt-1 pb-1 text-xl text-center bg-fuchsia-600 w-full uppercase rounded-[4px] select-none hover:bg-fuchsia-700 block' to={"/"}>Kembali ke beranda</Link>
+                <div className='w-full flex mt-16'>
+                    <h1 className='flex justify-center items-center mr-1 text-xl text-center h-14 align-bottom bg-fuchsia-600 w-1/2 uppercase rounded-[4px] select-none hover:bg-fuchsia-700 cursor-pointer' onClick={() => { window.history.back() }}>Kembali ke Sebelumnya</h1>
+                    <Link className='flex justify-center items-center ml-1 text-xl text-center h-14 bg-fuchsia-600 w-1/2 uppercase rounded-[4px] select-none hover:bg-fuchsia-700' to={"/"}>Kembali ke beranda</Link>
+                </div>
             </section>
         </>
     );
