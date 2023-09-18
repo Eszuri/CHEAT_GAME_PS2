@@ -27,26 +27,30 @@ export function BoilerplateRawPNACH(props) {
                 <h1 className='font-medium text-xl border-b-2 border-green-600 inline-block mt-32 mb-7'>Kode Pnach</h1>
                 <div className='flex mb-[37px]'>
                     <div style={{ width: '0%' }} className='z-10 duration-300 text-center fixed top-14 left-0 flex justify-center items-center overflow-hidden' id='copied'><h1 className='text-center w-[80%] h-10 flex justify-center items-center rounded text-xl font-sans font-bold' id='copied2'>{Copied}</h1></div>
-                    <h1 className='cursor-pointer absolute inline-block w-44 bg-slate-600 text-2xl rounded-md p-[6px] text-center hover:bg-slate-500 active:bg-slate-700' onClick={() => {
+                    <input className='duration-300 cursor-pointer absolute inline-block w-44 bg-slate-600 text-2xl rounded-md p-[6px] text-center hover:bg-slate-500 active:bg-slate-700' onClick={() => {
                         const textToCopy = document.getElementById("pnachKode").innerText;
                         navigator.clipboard.writeText(textToCopy)
                             .then(function () {
                                 // document.getElementById("copied").classList.add("kopi-muncul");
-                                document.getElementById("copied2").style.backgroundColor = "rgb(0, 173, 32)"
-                                setCopied('Kode Berhasil DiSalin')
+                                document.getElementById("copied2").style.backgroundColor = "rgb(0, 173, 32)";
+                                document.getElementById("isCopy").style.opacity = "0.3";
+                                setCopied('Kode Berhasil DiSalin');
                                 document.getElementById("copied").style.width = "100%";
                                 setTimeout(function () {
+                                    document.getElementById("isCopy").style.opacity = "1";
                                     document.getElementById("copied").style.width = "0%";
                                 }, 2000);
                             })
                             .catch(function () {
                                 document.getElementById("copied2").style.backgroundColor = "rgb(190, 0, 0)";
+                                document.getElementById("isCopy").style.opacity = "0.3";
                                 setCopied('Kode Gagal DiSalin');
                                 setTimeout(function () {
+                                    document.getElementById("isCopy").style.opacity = "1";
                                     document.getElementById("copied").style.width = "0%";
                                 }, 2000);
                             });
-                    }}>Salin Kode</h1>
+                    }} value="Salin Kode" type='button' id='isCopy' />
                 </div>
                 <div className='p-1'></div>
                 <pre className='text-green-400 selection:bg-violet-900 bg-black rounded-lg pl-1 w-full text-sm whitespace-pre-wrap sm:text-xl' id='pnachKode'>{content}</pre>
