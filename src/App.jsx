@@ -12,6 +12,7 @@ import GodOfWar2 from './list-cheat/G/GodOfWar2';
 import RumbleRacing from './list-cheat/R/RumbleRacing';
 import GhostRider from './list-cheat/G/GhostRider';
 import MetalSlug3EU from './list-cheat/M/MetalSlug3-E';
+import MetalSlug4Disc1 from './list-cheat/M/MetalSlug4-E';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -36,6 +37,7 @@ function App() {
         {/* list M */}
         <Route path="/mksm" element={<MortalKombatShaolinMonk />} />
         <Route path="/metalslug3" element={<MetalSlug3EU />} />
+        <Route path="/metalslug4&5-disc1" element={<MetalSlug4Disc1 />} />
 
         {/* list R */}
         <Route path="/rumbleracing" element={<RumbleRacing />} />
