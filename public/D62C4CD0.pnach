@@ -15,6 +15,8 @@ patch=1,EE,10154CF8,extended,00000001
 
 // INFINITE ARMS 
 patch=1,EE,20185968,extended,341B03E7
+patch=1,EE,1106F1AC,extended,0000FFFF
+patch=1,EE,1106F19C,extended,0000FFFF
 patch=1,EE,2018596C,extended,A05B000C
 patch=1,EE,20185970,extended,14400007
 
@@ -55,3 +57,33 @@ patch=1,EE,FFFFFFFF,extended,00000000
 
 // ENABLE ALL LEVELS 
 patch=1,EE,01070640,extended,00000006
+
+// CUSTOM WEAPONS OR WEAPONS MODIFIER
+patch=1,EE,1106F1A4,extended,00000909
+patch=1,EE,1106F194,extended,00000909
+
+
+
+// DAFTAR WEAPON MODIFIER OR CUSTOM WEAPON
+// 000 => NORMAL WEAPON
+// 101 => DROP SHOT (D)
+// 202 => SHOTGUN (S)
+// 303 => ROCKET LAUNCHER (R)
+// 404 => FLAME CHOP (F)
+// 505 => HEAVY MACHINE GUN (H)
+// 606 => LASER GUN
+// 707 => SUPER SHOTGUN
+// 808 => SUPER ROCKET LAUNCHER
+// 909 => EXPLOSIVE ROUNDS
+// A0A => SUPER HANDGUN
+// B0B => SUPER LASER
+// C0C => ENEMY CHASER (C)
+// D0D => IRON LIZARD (I)
+// E0E => BUBBLE GUN
+// F0F => SUPER BULLET GUN
+// 1212 => DUAL MACHINE GUN (2H)
+
+// cara pakainya, ganti 3 angka/huruf terakhir dengan kode diatas
+// contoh : weapon normal menjadi dual machine gun
+// patch=1,EE,1106F1A4,extended,00000000 => patch=1,EE,1106F1A4,extended,00001212
+// patch=1,EE,1106F194,extended,00000000 => patch=1,EE,1106F194,extended,00001212

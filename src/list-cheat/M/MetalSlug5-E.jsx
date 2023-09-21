@@ -8,32 +8,32 @@ import { BoilerplateRawPNACH, LinkSourceCode, SourceCode } from '../../component
 import Ps2PageDownloadLink from '../../components/PS2_PAGE_DOWNLOAD_LINK'
 import Bukamenu from '../../components/bukamenu'
 
-export default function MetalSlug4Disc1() {
+export default function MetalSlug5Disc2() {
     return (
         <>
             <Navbar />
             <Menu />
             <Ps2Pagetitle
-                judul='Metal Slug 4'
-                descJudul='Metal Slug 4 & 5 [Disc 1]'
-                descSerial='SLUS-20971'
-                descCRC='D62C4CD0'
+                judul='Metal Slug 5'
+                descJudul='Metal Slug 4 & 5 [Disc 2]'
+                descSerial='SLUS-20990'
+                descCRC='D4E1581B'
                 descRegion='NTSC-U' />
-            <Ps2PageStepUsage namaFile='D62C4CD0.pnach' />
+            <Ps2PageStepUsage namaFile='D4E1581B.pnach' />
             <div className='mt-32'>
                 <TextCarapakaikodedengancontoller />
                 <Ps2PageControllerCode Titlekode='Saat ini belom ada ' />
             </div>
-            <BoilerplateRawPNACH urlFile="/D62C4CD0.pnach" />
+            <BoilerplateRawPNACH urlFile="/D4E1581B.pnach" />
             <SourceCode text="Sumber Kode :" />
-            <LinkSourceCode urlSumberKode="https://gamehacking.org/game/104252" namaSumberKode="1. GameHacking" />
-            <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4151-title-metal+slug+4.html" namaSumberKode="2. CodeTwink" />
+            <LinkSourceCode urlSumberKode="https://gamehacking.org/game/104253" namaSumberKode="1. GameHacking" />
+            <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4152-title-metal+slug+5.html" namaSumberKode="2. CodeTwink" />
             <SourceCode text="Sumber Game :" />
-            <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/70886/Metal_Slug_4_&_5_(Disc_1)_(Metal_Slug_4).php" namaSumberKode="1. CoolRom" />
+            <LinkSourceCode urlSumberKode="https://coolrom.me/roms/ps2/70887/Metal_Slug_4_&_5_(Disc_2)_(Metal_Slug_5).php" namaSumberKode="1. CoolRom" />
             <Ps2PageDownloadLink
-                namaFile="D62C4CD0.pnach"
+                namaFile="D4E1581B.pnach"
                 dateFile="2023"
-                sizeFile="1,52 KB"
+                sizeFile="3,10 KB"
             />
             <Bukamenu />
         </>

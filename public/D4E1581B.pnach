@@ -1,0 +1,108 @@
+gametitle=Metal Slug 4 & 5 [Disc 2] (NTSC-U)
+
+// ENABLE CODE
+patch=1,EE,F0129B51,extended,800813BF
+patch=1,EE,000FFFFE,extended,0000001B
+patch=1,EE,000FFFFF,extended,0000001B
+patch=1,EE,904415F0,extended,0C10F01C
+
+// EXTRA AND INFINITE LIVES 
+patch=1,EE,1023B134,extended,00000001
+patch=1,EE,2021AB34,extended,00000000
+patch=1,EE,2023B134,extended,24020063
+patch=1,EE,2023B138,extended,00000000
+
+// INFINITE AMMO 
+patch=1,EE,2020B8A0,extended,00000000
+patch=1,EE,00AD45E5,extended,00000063
+patch=1,EE,10A9BACC,extended,0000FFFF
+patch=1,EE,10A9BABC,extended,0000FFFF
+
+// INFINITE ARMS 
+patch=1,EE,2021AE88,extended,341B0063
+patch=1,EE,2021AE8C,extended,A05B000C
+patch=1,EE,2021AE90,extended,14400007
+
+// INFINITE BOMBS 
+patch=1,EE,10224D8C,extended,00000001
+patch=1,EE,200C2014,extended,341B0063
+patch=1,EE,200C2018,extended,08082521
+patch=1,EE,200C201C,extended,A09B0007
+patch=1,EE,20209480,extended,08030805
+patch=1,EE,200C2000,extended,341B0063
+patch=1,EE,200C2004,extended,080A69BC
+patch=1,EE,200C2008,extended,A09B0025
+patch=1,EE,2029A6EC,extended,08030800
+patch=1,EE,20224D8C,extended,24020063
+
+// ALL TROPHY ITEMS
+patch=1,EE,20EA2E68,extended,1FFFFFFF
+patch=1,EE,20EA2E68,extended,FFFFFFFF
+
+// DO NOT LOSE UPGRADED WEAPONS WHEN DYING
+patch=1,EE,200C0220,extended,54600001
+patch=1,EE,200C0224,extended,A0430004
+patch=1,EE,200C0228,extended,03E00008
+patch=1,EE,200C022C,extended,00000000
+patch=1,EE,2020A01C,extended,0C030088
+patch=1,EE,20208434,extended,00000000
+
+// ENABLE ALL MISSIONS 
+patch=1,EE,00EA2DD0,extended,00000005
+patch=1,EE,00EA2DD0,extended,00000004
+
+// HOLD R1 FOR SUPER JUMP 
+patch=1,EE,D0AD5643,extended,000000F7
+patch=1,EE,10AD3D6E,extended,00000007
+patch=1,EE,D0AD5743,extended,000000F7
+patch=1,EE,10AD3C3E,extended,00000007
+
+// HOLD R2 TO HOVER 
+patch=1,EE,D0AD5643,extended,000000FD
+patch=1,EE,10AD3D6E,extended,00000000
+patch=1,EE,D0AD5743,extended,000000FD
+patch=1,EE,10AD3C3E,extended,00000000
+
+// INFINITE TIME 
+patch=1,EE,00AC8DCA,extended,00000099
+patch=1,EE,10AC8DC8,extended,000060FF
+patch=1,EE,00AC8DC9,extended,00000060
+
+// MAX SCORE 
+patch=1,EE,20AD5100,extended,09999999
+patch=1,EE,20AD50F8,extended,09999999
+
+// PRESS HOLD X FOR MOON JUMP 
+patch=1,EE,D0AD5642,extended,0000BFFF
+patch=1,EE,10AD3D6E,extended,00000002
+patch=1,EE,D0AD5742,extended,0000BFFF
+patch=1,EE,10AD3C3E,extended,00000002
+
+// CUSTOM WEAPONS OR WEAPONS MODIFIER
+//patch=1,EE,00A9BAC4,extended,00000000
+//patch=1,EE,00A9BAB4,extended,00000000
+
+
+
+// DAFTAR WEAPON MODIFIER OR CUSTOM WEAPON
+// 00 => NORMAL WEAPON
+// 01 => DROP SHOT (D)
+// 02 => SHOTGUN (S)
+// 03 => ROCKET LAUNCHER (R)
+// 04 => FLAME CHOP (F)
+// 05 => HEAVY MACHINE GUN (H)
+// 06 => LASER GUN
+// 07 => SUPER SHOTGUN
+// 08 => SUPER ROCKET LAUNCHER
+// 09 => EXPLOSIVE ROUNDS
+// 0A => SUPER HANDGUN
+// 0B => SUPER LASER
+// 0C => ENEMY CHASER (C)
+// 0D => IRON LIZARD (I)
+// 0E => BUBBLE GUN
+// 0F => SUPER BULLET GUN
+
+// cara pakainya, ganti 1 angka/huruf terakhir dengan kode diatas
+// contoh : weapon normal menjadi super rocket launcher
+// patch=1,EE,00A9BAC4,extended,00000000 => patch=1,EE,00A9BAC4,extended,00000008
+// patch=1,EE,00A9BAB4,extended,00000000 => patch=1,EE,00A9BAB4,extended,00000008
