@@ -1,4 +1,4 @@
-gametitle=Metal Slug 4 & 5 [Disc-1] (NTSC-U)
+gametitle=Metal Slug 4 & 5 [Disc 1] (NTSC-U)
 
 // DO NOT LOSE UPGRADED WEAPONS WHEN DYING
 patch=1,EE,200C0220,extended,54600001
@@ -59,8 +59,8 @@ patch=1,EE,FFFFFFFF,extended,00000000
 patch=1,EE,01070640,extended,00000006
 
 // CUSTOM WEAPONS OR WEAPONS MODIFIER
-patch=1,EE,1106F1A4,extended,00000909
-patch=1,EE,1106F194,extended,00000909
+//patch=1,EE,1106F1A4,extended,00000000
+//patch=1,EE,1106F194,extended,00000000
 
 
 
