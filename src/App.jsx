@@ -38,8 +38,8 @@ function App() {
         {/* list M */}
         <Route path="/mksm" element={<MortalKombatShaolinMonk />} />
         <Route path="/metalslug3" element={<MetalSlug3EU />} />
-        <Route path="/metalslug4&5-disc1" element={<MetalSlug4Disc1 />} />
-        <Route path="/metalslug4&5-disc2" element={<MetalSlug5Disc2 />} />
+        <Route path="/metalslug4" element={<MetalSlug4Disc1 />} />
+        <Route path="/metalslug5" element={<MetalSlug5Disc2 />} />
 
         {/* list R */}
         <Route path="/rumbleracing" element={<RumbleRacing />} />

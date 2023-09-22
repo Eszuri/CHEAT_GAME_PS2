@@ -150,8 +150,8 @@ function Menu() {
                     <div className='mt-10' id='ScrollM'>
                         <ul className='text-lg'>M
                             <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/metalslug3"} onClick={tutupTabClick}>Metal Slug 3</Link></li>
-                            <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/metalslug4&5-disc1"} onClick={tutupTabClick}>Metal Slug 4 & 5 {'[Disc 1]'}</Link></li>
-                            <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/metalslug4&5-disc2"} onClick={tutupTabClick}>Metal Slug 4 & 5 {'[Disc 2]'}</Link></li>
+                            <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/metalslug4"} onClick={tutupTabClick}>Metal Slug 4 & 5 {'[Disc 1]'}</Link></li>
+                            <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/metalslug5"} onClick={tutupTabClick}>Metal Slug 4 & 5 {'[Disc 2]'}</Link></li>
                             <li className='flex flex-nowrap'>├── <Link className='text-green-500 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer' to={"/mksm"} onClick={tutupTabClick}>Mortal Kombat Shaolin Monk</Link></li>
                             <li className='flex flex-nowrap'>├── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
                             <li className='flex flex-nowrap'>└── <span className='text-red-400 font-semibold overflow-auto ml-1 whitespace-nowrap cursor-pointer'>belom Tersedia</span></li>
