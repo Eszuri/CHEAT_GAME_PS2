@@ -6,7 +6,7 @@ import { Check } from './Check';
 const client = new faunadb.Client({
     secret: import.meta.env.VITE_API_KEY
 });
-function report() {
+function report(props) {
     const [name, setNama] = useState('');
     const [email, setEmail] = useState('');
     const [komentar, setKomentar] = useState('');
