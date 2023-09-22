@@ -92,13 +92,23 @@ function report(props) {
                         </button>
                     </div>
                 </form>
-                <div className='w-full flex mt-16'>
-                    <h1 className='flex justify-center items-center mr-1 text-xl text-center h-14 align-bottom bg-fuchsia-600 w-1/2 uppercase rounded-[4px] select-none hover:bg-fuchsia-700 cursor-pointer' onClick={() => { window.history.back() }}>Kembali ke Sebelumnya</h1>
-                    <Link className='flex justify-center items-center ml-1 text-xl text-center h-14 bg-fuchsia-600 w-1/2 uppercase rounded-[4px] select-none hover:bg-fuchsia-700' to={"/"}>Kembali ke beranda</Link>
-                </div>
             </section>
+            <PrevOrHome /><br />
         </>
     );
 };
 
 export default report;
+
+export function PrevOrHome() {
+    return (
+        <>
+            <div className='w-[90%] mr-auto ml-auto'>
+                <div className='w-full flex mt-16 text-white'>
+                    <h1 className='flex justify-center items-center mr-1 text-xl text-center h-14 align-bottom bg-fuchsia-600 w-1/2 uppercase rounded-[4px] select-none hover:bg-fuchsia-700 cursor-pointer' onClick={() => { window.history.back() }}>Kembali ke Sebelumnya</h1>
+                    <Link className='flex justify-center items-center ml-1 text-xl text-center h-14 bg-fuchsia-600 w-1/2 uppercase rounded-[4px] select-none hover:bg-fuchsia-700' to={"/"}>Kembali ke beranda</Link>
+                </div>
+            </div>
+        </>
+    )
+}

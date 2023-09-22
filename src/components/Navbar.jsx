@@ -24,7 +24,7 @@ export default function Navbar(props) {
                     <span className='ml-5 rotate-90 duration-300 text-yellow-400 font-bold' id='menurotate'>{'﹥'}</span>
                 </div>
                 <div className='absolute right-5 top-[50px] bg-gray-700 w-36 text-xl rounded overflow-hidden duration-300' style={{ height: '0px' }} id='menulist'>
-                    <Link to={'/'} className='block hover:bg-gray-800 p-1 m-1'>Daftar Game</Link>
+                    <Link to={'/list'} className='block hover:bg-gray-800 p-1 m-1'>Daftar Game</Link>
                     <Link to={"/report"} className='block hover:bg-gray-800 p-1 m-1'>Laporkan</Link >
                     <Link to={"/request"} className='block hover:bg-gray-800 p-1 m-1'>Request</Link>
                 </div>

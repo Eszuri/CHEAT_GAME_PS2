@@ -15,8 +15,8 @@ export default function GodOfWar2() {
             <Navbar />
             <Menu />
             <Ps2Pagetitle
-                judul='God Of War ||'
-                descJudul='God Of War ||'
+                judul='God Of War II'
+                descJudul='God Of War II'
                 descSerial='SCUS-97481'
                 descCRC='2F123FD8'
                 descRegion='NTSC - U' />

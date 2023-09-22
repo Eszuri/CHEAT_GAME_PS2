@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../Global.css'
 function MainContent() {
     function bukaMenu() {
@@ -10,7 +11,7 @@ function MainContent() {
                 <h1 className='uppercase font-semibold text-2xl underline decoration-green-600'>Cheat Playstation 2 yg gwe sediakan</h1>
                 <p className='mt-20 text-xl'><span className='select-none text-green-500'>1.</span> Dengan kode patch / .pnach file</p>
                 <p className='mt-10 text-xl'><span className='select-none text-green-500'>2.</span> Dengan controller Ps2 / Stik ps2</p>
-                <button className='pt-1 pb-1 mt-10 text-xl bg-fuchsia-600 w-full uppercase rounded-md select-none hover:bg-fuchsia-700' onClick={bukaMenu}>Buka Daftar Cheat PS2</button>
+                <Link to={'/list'} className='inline-block pt-1 pb-1 mt-10 text-xl bg-fuchsia-600 w-full uppercase rounded-md select-none hover:bg-fuchsia-700'>Buka Daftar Cheat PS2</Link>
             </article>
         </>
     )
