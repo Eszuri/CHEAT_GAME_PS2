@@ -30,11 +30,7 @@ export default function RumbleRacing() {
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/104814" namaSumberKode="1. GameHacking" />
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/45395/Rumble_Racing.php" namaSumberKode="1. CoolRom" />
-            <Ps2PageDownloadLink
-                namaFile="2F5354BE.pnach"
-                dateFile="12 September 2023"
-                sizeFile="2,16 KB"
-            />
+            <Ps2PageDownloadLink namaFile="2F5354BE.pnach" />
             <Bukamenu />
         </>
     )

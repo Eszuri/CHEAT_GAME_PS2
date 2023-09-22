@@ -31,11 +31,7 @@ export default function GodOfWar() {
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/103831" namaSumberKode="2. GameHacking" />
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41795/God_of_War.php" namaSumberKode="1. CoolRom" />
-            <Ps2PageDownloadLink
-                namaFile="D6385328.pnach"
-                dateFile="27 Agustus 2023"
-                sizeFile="2,17 KB"
-            />
+            <Ps2PageDownloadLink namaFile="D6385328.pnach" />
             <Bukamenu />
         </>
     )

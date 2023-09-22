@@ -65,11 +65,7 @@ function DefJamForNy() {
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/103490" namaSumberKode="1. GameHacking" />
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41688/Def_Jam_-_Fight_for_NY.php" namaSumberKode="1. CoolRom" />
-            <Ps2PageDownloadLink
-                namaFile="4538436F.pnach"
-                dateFile="2023"
-                sizeFile="5.4 KB"
-            />
+            <Ps2PageDownloadLink namaFile="4538436F.pnach" />
             <Bukamenu />
         </>
     )

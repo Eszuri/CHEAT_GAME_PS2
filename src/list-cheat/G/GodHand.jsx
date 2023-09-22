@@ -30,11 +30,7 @@ export default function GodHand() {
             <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4378-title-god+hand.html" namaSumberKode="1. CodeTwink" />
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41906/God_Hand.php" namaSumberKode="1. CoolRom" />
-            <Ps2PageDownloadLink
-                namaFile="6FB69282.pnach"
-                dateFile="19 Agustus 2023"
-                sizeFile="702 byte / 0.7 KB"
-            />
+            <Ps2PageDownloadLink namaFile="6FB69282.pnach" />
             <Bukamenu />
         </>
     )

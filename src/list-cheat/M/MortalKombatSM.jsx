@@ -39,11 +39,7 @@ function MortalKombatShaolinMonk() {
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/104317" namaSumberKode="3. GameHacking" />
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41803/Mortal_Kombat_-_Shaolin_Monks.php" namaSumberKode="1. CoolRom" />
-            <Ps2PageDownloadLink
-                namaFile="455DD546.pnach"
-                dateFile="2023"
-                sizeFile="44.4 KB"
-            />
+            <Ps2PageDownloadLink namaFile="455DD546.pnach" />
             <Bukamenu />
         </>
     )

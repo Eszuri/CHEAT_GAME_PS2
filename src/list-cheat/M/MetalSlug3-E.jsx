@@ -29,11 +29,7 @@ export default function MetalSlug3EU() {
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/102011" namaSumberKode="1. GameHacking" />
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/70885/Metal_Slug_3_(Europe)_(En,Fr,De,Es,It).php" namaSumberKode="1. CoolRom" />
-            <Ps2PageDownloadLink
-                namaFile="04924A38.pnach"
-                dateFile="2023"
-                sizeFile="498 Byte"
-            />
+            <Ps2PageDownloadLink namaFile="04924A38.pnach" />
             <Bukamenu />
         </>
     )

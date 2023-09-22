@@ -30,11 +30,7 @@ export default function MetalSlug5Disc2() {
             <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4152-title-metal+slug+5.html" namaSumberKode="2. CodeTwink" />
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.me/roms/ps2/70887/Metal_Slug_4_&_5_(Disc_2)_(Metal_Slug_5).php" namaSumberKode="1. CoolRom" />
-            <Ps2PageDownloadLink
-                namaFile="D4E1581B.pnach"
-                dateFile="2023"
-                sizeFile="3,10 KB"
-            />
+            <Ps2PageDownloadLink namaFile="D4E1581B.pnach" />
             <Bukamenu />
         </>
     )

@@ -30,11 +30,7 @@ export default function GhostRider() {
             <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4444-title-ghost+rider.html" namaSumberKode="1. CodeTwink" />
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41868/Ghost_Rider.php" namaSumberKode="1. CoolRom" />
-            <Ps2PageDownloadLink
-                namaFile="FA6D7EEA.pnach"
-                dateFile="13 September 2023"
-                sizeFile="1,19 KB"
-            />
+            <Ps2PageDownloadLink namaFile="FA6D7EEA.pnach" />
             <Bukamenu />
         </>
     )

@@ -30,11 +30,7 @@ export default function DigimonRumbleArena2() {
             <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4027-title-digimon+rumble+arena+2.html" namaSumberKode="1. CodeTwink" />
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/42026/Digimon_Rumble_Arena_2.php" namaSumberKode="1. CoolRom" />
-            <Ps2PageDownloadLink
-                namaFile="568A5C78.pnach"
-                dateFile="15 Agustus 2023"
-                sizeFile="2,68 KB"
-            />
+            <Ps2PageDownloadLink namaFile="568A5C78.pnach" />
             <Bukamenu />
         </>
     )
