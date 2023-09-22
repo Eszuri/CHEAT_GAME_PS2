@@ -33,7 +33,7 @@ function report() {
         <>
             <Check loadingtext="mengecek" />
             <section className="pt-14 pb-14 text-white  w-[90%] mr-auto ml-auto">
-                <h1 className="text-center font-bold text-3xl">Laporkan / Request</h1>
+                <h1 className="text-center font-bold text-3xl">{props.tittle}</h1>
                 <form action="" onSubmit={handleSubmit} className="pt-16">
                     <div className="flex max-[639px]:block">
                         <div className="w-full pr-[2%] max-[639px]:pr-[0%]">
@@ -77,7 +77,7 @@ function report() {
                             cols={30}
                             rows={10}
                             className="font-semibold bg-slate-300 outline outline-1 rounded w-full flex focus:outline-[#1B74E4] focus:outline-4 text-black p-2 caret-[#1B74E4] placeholder:font-medium placeholder:text-slate-600"
-                            placeholder="Ketikkan laporan atau request anda disini"
+                            placeholder={props.placeholder}
                             spellCheck="true"
                             onChange={(e) => setKomentar(e.target.value)}
                             defaultValue={""}

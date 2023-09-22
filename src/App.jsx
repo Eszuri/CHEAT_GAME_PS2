@@ -22,7 +22,8 @@ function App() {
       <Routes>
         {/* pages */}
         <Route path="/" element={<Home />} />
-        <Route path="/report" element={<Report />} />
+        <Route path="/report" element={<Report placeholder="Ketikkan laporan anda disini" tittle="Laporkan" />} />
+        <Route path="/request" element={<Report placeholder="Ketikkan request anda disini" tittle="Request" />} />
         <Route path="*" element={<FailedUrl />} />
 
         {/* list D */}
