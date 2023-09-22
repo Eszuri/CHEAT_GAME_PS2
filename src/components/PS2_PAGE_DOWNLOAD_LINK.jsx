@@ -5,7 +5,6 @@ import PnachLogo from "../images/pnachlogo.png"
 
 function Ps2PageDownloadLink(props) {
     const [fileSize, setFileSize] = useState(null);
-    const [fileModifiedDate, setFileModifiedDate] = useState('');
 
     // membaca ukuran file pnach
     useEffect(() => {
@@ -15,9 +14,6 @@ function Ps2PageDownloadLink(props) {
                 if (!response.ok) {
                     throw new Error(`Gagal membaca file ${fileName}`);
                 }
-                const lastModified = response.headers.get('Last-Modified');
-                const formattedDate = new Date(lastModified).toLocaleString();
-                setFileModifiedDate(formattedDate);
                 return response.text();
             })
             .then(data => {
@@ -35,8 +31,7 @@ function Ps2PageDownloadLink(props) {
                 <h1 className='font-medium text-xl border-b-2 border-green-600 inline-block mt-32'>Link Download .PNACH</h1>
                 <p className='text-base font-semibold mt-5' id="namePnach">{props.namaFile}</p>
                 <img src={PnachLogo} alt="pnach logo" className='w-24' />
-                <p className='text-base font-semibold mt-5'>Terakhir diubah : <span className='text-green-500'>{fileModifiedDate}</span></p>
-                <p className='text-base font-semibold'>Size file : <span className='text-green-500'>{fileSize} KB</span></p>
+                <p className='text-base font-semibold mt-5'>Size file : <span className='text-green-500'>{fileSize} KB</span></p>
                 <a href={props.namaFile} download={props.namaFile} className="inline-block"><img src={LogoDownload} alt="Logo Download" className='w-36 mt-1 rounded cursor-pointer' /></a>
                 <h1 className='text-center text-green-600 font-bold text-xl uppercase mt-20 mb-0'>terima kasih telah berkunjung</h1>
             </section>
