@@ -1,3 +1,5 @@
+gametitle=God Of War II (NTSC-U)
+
 // ENABLE CODE
 patch=1,EE,FE129B51,extended,800813BF
 patch=1,EE,000FFFFE,extended,00000288

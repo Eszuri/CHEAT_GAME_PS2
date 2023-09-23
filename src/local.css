@@ -147,3 +147,30 @@
 .kodeRawF::selection {
     background-color: rgb(163, 89, 233);
 }
+
+.rgb {
+    animation: rgb 3s infinite;
+    transition: 500ms;
+}
+
+@keyframes rgb {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: green;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    75% {
+        color: yellow;
+    }
+
+    100% {
+        color: red;
+    }
+}
