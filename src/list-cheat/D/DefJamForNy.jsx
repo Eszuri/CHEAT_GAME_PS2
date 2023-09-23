@@ -1,16 +1,15 @@
 import '../../Global.css'
 import Navbar from '../../components/Navbar'
-import Menu from '../../components/menu'
 import { Ps2Pagetitle } from '../../components/PS2-PAGE-TITLE'
 import Ps2PageStepUsage from '../../components/PS2-PAGE-STEP-USAGE'
 import Ps2PageControllerCode from '../../components/PS2-PAGE-CONTROLLER-CODE'
 import Ps2PageDownloadLink from '../../components/PS2_PAGE_DOWNLOAD_LINK'
-import Bukamenu from '../../components/bukamenu'
 import { TextCarapakaikodedengancontoller } from '../../components/PS2-PAGE-CONTROLLER-CODE'
 import { TextCaraPakai } from '../../components/PS2-PAGE-CONTROLLER-CODE'
 import { TextH1 } from '../../components/PS2-PAGE-CONTROLLER-CODE'
 import { BoilerplateRawPNACH } from '../../components/PS2-PAGE-CODE-PNACH'
 import { SourceCode, LinkSourceCode } from '../../components/PS2-PAGE-CODE-PNACH'
+import { PrevOrHome } from "../../components/report"
 function DefJamForNy() {
     return (
         <>
@@ -66,7 +65,7 @@ function DefJamForNy() {
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41688/Def_Jam_-_Fight_for_NY.php" namaSumberKode="1. CoolRom" />
             <Ps2PageDownloadLink namaFile="4538436F.pnach" />
-            <Bukamenu />
+            <PrevOrHome />
         </>
     )
 }

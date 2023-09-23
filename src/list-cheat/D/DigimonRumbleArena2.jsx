@@ -1,18 +1,16 @@
 import '../../Global.css'
 import Navbar from '../../components/Navbar'
-import Menu from '../../components/menu'
 import { Ps2Pagetitle } from '../../components/PS2-PAGE-TITLE'
 import Ps2PageStepUsage from '../../components/PS2-PAGE-STEP-USAGE'
 import Ps2PageControllerCode, { TextCaraPakai, TextCarapakaikodedengancontoller, TextH1 } from '../../components/PS2-PAGE-CONTROLLER-CODE'
 import { BoilerplateRawPNACH, LinkSourceCode, SourceCode } from '../../components/PS2-PAGE-CODE-PNACH'
 import Ps2PageDownloadLink from '../../components/PS2_PAGE_DOWNLOAD_LINK'
-import Bukamenu from '../../components/bukamenu'
+import { PrevOrHome } from "../../components/report"
 
 export default function DigimonRumbleArena2() {
     return (
         <>
             <Navbar />
-            <Menu />
             <Ps2Pagetitle
                 judul='Digimon Rumble Arena 2'
                 descJudul='Digimon Rumble Arena 2'
@@ -31,7 +29,7 @@ export default function DigimonRumbleArena2() {
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/42026/Digimon_Rumble_Arena_2.php" namaSumberKode="1. CoolRom" />
             <Ps2PageDownloadLink namaFile="568A5C78.pnach" />
-            <Bukamenu />
+            <PrevOrHome />
         </>
     )
 }

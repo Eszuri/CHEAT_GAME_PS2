@@ -1,18 +1,16 @@
 import '../../Global.css'
 import Navbar from '../../components/Navbar'
-import Menu from '../../components/menu'
 import { Ps2Pagetitle } from '../../components/PS2-PAGE-TITLE'
 import Ps2PageStepUsage from '../../components/PS2-PAGE-STEP-USAGE'
 import Ps2PageControllerCode, { TextCaraPakai, TextCarapakaikodedengancontoller, TextH1 } from '../../components/PS2-PAGE-CONTROLLER-CODE'
 import { BoilerplateRawPNACH, LinkSourceCode, SourceCode } from '../../components/PS2-PAGE-CODE-PNACH'
 import Ps2PageDownloadLink from '../../components/PS2_PAGE_DOWNLOAD_LINK'
-import Bukamenu from '../../components/bukamenu'
+import { PrevOrHome } from '../../components/report'
 
 function MortalKombatShaolinMonk() {
     return (
         <>
             <Navbar />
-            <Menu />
             <Ps2Pagetitle
                 judul='Mortal Kombat - Shaolin Monks'
                 descJudul='Mortal Kombat - Shaolin Monks'
@@ -40,7 +38,7 @@ function MortalKombatShaolinMonk() {
             <SourceCode text="Sumber Game :" />
             <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41803/Mortal_Kombat_-_Shaolin_Monks.php" namaSumberKode="1. CoolRom" />
             <Ps2PageDownloadLink namaFile="455DD546.pnach" />
-            <Bukamenu />
+            <PrevOrHome />
         </>
     )
 }
