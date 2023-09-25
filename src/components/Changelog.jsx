@@ -4,44 +4,14 @@ import '../local.css'
 export default function Changelog() {
     return (
         <>
-            <div className='w-full bg-black p-2 text-left rounded'>
+            <div className='w-full bg-black p-2 text-left rounded overflow-hidden' style={{ height: "30" + "vh", transition: "500" }} id='sizeChangeLog'>
                 <h1 className='text-2xl'>Log Perubahan {"(Changelog)"}</h1>
                 <br />
-                <BOXCHANGELOG tanggal="16 Agustus 2023">
-                    <WebUpdateTittle tittle="Penambahan Cheat" />
-                    <WebUpdate perubahan="Mortal Kombat - Shaolin  Monk" />
-                    <WebUpdate perubahan="Def Jam Fight - For NY" />
-                    <WebUpdate perubahan="Digimon Rumble Arena 2" />
-                </BOXCHANGELOG>
-
                 {/* pemisah */}
-                <BOXCHANGELOG tanggal="19 Agustus 2023">
+                <BOXCHANGELOG tanggal="21 September 2023">
                     <WebUpdateTittle tittle="Penambahan Cheat" />
-                    <WebUpdate perubahan="God Hand" />
-                </BOXCHANGELOG>
-
-                {/* pemisah */}
-                <BOXCHANGELOG tanggal="27 Agustus 2023">
-                    <WebUpdateTittle tittle="Penambahan Cheat" />
-                    <WebUpdate perubahan="God Of War" />
-                </BOXCHANGELOG>
-
-                {/* pemisah */}
-                <BOXCHANGELOG tanggal="29 Agustus 2023">
-                    <WebUpdateTittle tittle="Penambahan Cheat" />
-                    <WebUpdate perubahan="God Of War II" />
-                </BOXCHANGELOG>
-
-                {/* pemisah */}
-                <BOXCHANGELOG tanggal="12 September 2023">
-                    <WebUpdateTittle tittle="Penambahan Cheat" />
-                    <WebUpdate perubahan="Rumble Racing" />
-                </BOXCHANGELOG>
-
-                {/* pemisah */}
-                <BOXCHANGELOG tanggal="15 September 2023">
-                    <WebUpdateTittle tittle="Penambahan Cheat" />
-                    <WebUpdate perubahan="Ghost Rider" />
+                    <WebUpdate perubahan="Metal Slug 4 & 5 [Disc 1]" />
+                    <WebUpdate perubahan="Metal Slug 4 & 5 [Disc 2]" />
                 </BOXCHANGELOG>
 
                 {/* pemisah */}
@@ -51,12 +21,43 @@ export default function Changelog() {
                 </BOXCHANGELOG>
 
                 {/* pemisah */}
-                <BOXCHANGELOG tanggal="21 September 2023">
+                <BOXCHANGELOG tanggal="15 September 2023">
                     <WebUpdateTittle tittle="Penambahan Cheat" />
-                    <WebUpdate perubahan="Metal Slug 4 & 5 [Disc 1]" />
-                    <WebUpdate perubahan="Metal Slug 4 & 5 [Disc 2]" />
+                    <WebUpdate perubahan="Ghost Rider" />
+                </BOXCHANGELOG>
+
+                {/* pemisah */}
+                <BOXCHANGELOG tanggal="12 September 2023">
+                    <WebUpdateTittle tittle="Penambahan Cheat" />
+                    <WebUpdate perubahan="Rumble Racing" />
+                </BOXCHANGELOG>
+
+                {/* pemisah */}
+                <BOXCHANGELOG tanggal="29 Agustus 2023">
+                    <WebUpdateTittle tittle="Penambahan Cheat" />
+                    <WebUpdate perubahan="God Of War II" />
+                </BOXCHANGELOG>
+
+                {/* pemisah */}
+                <BOXCHANGELOG tanggal="27 Agustus 2023">
+                    <WebUpdateTittle tittle="Penambahan Cheat" />
+                    <WebUpdate perubahan="God Of War" />
+                </BOXCHANGELOG>
+
+                {/* pemisah */}
+                <BOXCHANGELOG tanggal="19 Agustus 2023">
+                    <WebUpdateTittle tittle="Penambahan Cheat" />
+                    <WebUpdate perubahan="God Hand" />
+                </BOXCHANGELOG>
+
+                <BOXCHANGELOG tanggal="16 Agustus 2023">
+                    <WebUpdateTittle tittle="Penambahan Cheat" />
+                    <WebUpdate perubahan="Mortal Kombat - Shaolin  Monk" />
+                    <WebUpdate perubahan="Def Jam Fight - For NY" />
+                    <WebUpdate perubahan="Digimon Rumble Arena 2" />
                 </BOXCHANGELOG>
             </div >
+            <SizeChangeLog />
         </>
     )
 }
@@ -64,8 +65,8 @@ export default function Changelog() {
 export function BOXCHANGELOG({ tanggal, children }) {
     return (
         <>
-            <span className='absolute w-5 inline-block h-5 rounded-full border-4 bg-black border-emerald-600'></span>
-            <div className='bg-stone-800 border-l-2 ml-2 pb-14'>
+            <span className='w-5 inline-block h-5 rounded-full border-4 bg-black border-emerald-600'></span>
+            <div className='bg-stone-800 border-l-2 ml-[9px] pb-14 mt-[-10px]'>
                 <h1 className='ml-5 font-bold'>{tanggal}</h1>
                 <div className='ml-5 mt-3'>
                     {children}
@@ -90,6 +91,20 @@ export function WebUpdateTittle(props) {
     return (
         <>
             <h1 className='text-xl text-white underline decoration-yellow-600 decoration-[3px] font-bold'>{props.tittle}</h1>
+        </>
+    )
+}
+
+export function SizeChangeLog() {
+    return (
+        <>
+            <span className='inline-block w-full bg-slate-900 rounded-es rounded-ee cursor-pointer' onClick={() => {
+                if (document.getElementById('sizeChangeLog').style.height == '30vh') {
+                    document.getElementById('sizeChangeLog').style.height = "100%";
+                } else {
+                    document.getElementById('sizeChangeLog').style.height = "30vh";
+                }
+            }}>luas/sempit</span>
         </>
     )
 }
