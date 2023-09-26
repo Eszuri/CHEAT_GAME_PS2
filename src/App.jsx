@@ -41,6 +41,7 @@ import List_W from './list-cheat/W/LIST_W';
 import List_X from './list-cheat/X/LIST_X';
 import List_Y from './list-cheat/Y/LIST_Y';
 import List_Z from './list-cheat/Z/LIST_Z';
+import Changelog from './components/Changelog';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -52,6 +53,7 @@ function App() {
         <Route path="/list" element={<List />} />
         <Route path="/report" element={<Report placeholder="Ketikkan laporan anda disini" tittle="Laporkan" />} />
         <Route path="/request" element={<Report placeholder="Ketikkan request anda disini" tittle="Request" />} />
+        <Route path="/changelog" element={<Changelog />} />
         <Route path="*" element={<FailedUrl />} />
 
         {/* list A */}

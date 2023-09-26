@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import faunadb, { query as q } from 'faunadb';
 import { Check } from './Check';
@@ -101,12 +101,21 @@ function report(props) {
 export default report;
 
 export function PrevOrHome() {
+    useEffect(() => {
+        if (window.history.length == '1') {
+            document.getElementById('backHistory').style.display = "none";
+            document.getElementById('backHome').style.width = "100%";
+        } else {
+            document.getElementById('backHistory').style.display = "flex";
+            document.getElementById('backHome').style.width = "50%";
+        }
+    })
     return (
         <>
             <div className='w-[90%] mr-auto ml-auto'>
                 <div className='w-full flex mt-16 text-white'>
-                    <h1 className='flex justify-center items-center mr-1 text-xl text-center h-14 align-bottom bg-fuchsia-600 w-1/2 uppercase rounded-[4px] select-none hover:bg-fuchsia-700 cursor-pointer' onClick={() => { window.history.back() }}>Kembali ke Sebelumnya</h1>
-                    <Link className='flex justify-center items-center ml-1 text-xl text-center h-14 bg-fuchsia-600 w-1/2 uppercase rounded-[4px] select-none hover:bg-fuchsia-700' to={"/"}>Kembali ke beranda</Link>
+                    <h1 className='flex justify-center items-center mr-1 text-xl text-center h-14 align-bottom bg-fuchsia-600 w-1/2 uppercase rounded-[4px] select-none hover:bg-fuchsia-700 cursor-pointer' onClick={() => { window.history.back() }} id='backHistory'>Kembali ke Sebelumnya</h1>
+                    <Link className='flex justify-center items-center ml-1 text-xl text-center h-14 bg-fuchsia-600 w-1/2 uppercase rounded-[4px] select-none hover:bg-fuchsia-700' to={"/"} id='backHome'>Kembali ke beranda</Link>
                 </div>
             </div>
         </>

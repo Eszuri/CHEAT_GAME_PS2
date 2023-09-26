@@ -1,11 +1,14 @@
 import React, { Children } from 'react'
 import '../local.css'
+import Navbar from './Navbar';
+import { PrevOrHome } from "../components/report"
 
 export default function Changelog() {
     return (
         <>
-            <div className='w-full bg-black p-2 text-left rounded overflow-hidden' style={{ height: "30" + "vh", transition: "500" }} id='sizeChangeLog'>
-                <h1 className='text-2xl'>Log Perubahan {"(Changelog)"}</h1>
+            <Navbar />
+            <div className='w-full bg-black p-2 text-left rounded overflow-hidden h-full'>
+                <h1 className='text-2xl mt-14 text-white text-center'>Log Perubahan {"(Changelog)"}</h1>
                 <br />
                 {/* pemisah */}
                 <BOXCHANGELOG tanggal="21 September 2023">
@@ -57,7 +60,7 @@ export default function Changelog() {
                     <WebUpdate perubahan="Digimon Rumble Arena 2" />
                 </BOXCHANGELOG>
             </div >
-            <SizeChangeLog />
+            <PrevOrHome />
         </>
     )
 }
@@ -67,7 +70,7 @@ export function BOXCHANGELOG({ tanggal, children }) {
         <>
             <span className='w-5 inline-block h-5 rounded-full border-4 bg-black border-emerald-600'></span>
             <div className='bg-stone-800 border-l-2 ml-[9px] pb-14 mt-[-10px]'>
-                <h1 className='ml-5 font-bold'>{tanggal}</h1>
+                <h1 className='ml-5 font-bold text-white'>{tanggal}</h1>
                 <div className='ml-5 mt-3'>
                     {children}
                 </div>
@@ -91,20 +94,6 @@ export function WebUpdateTittle(props) {
     return (
         <>
             <h1 className='text-xl text-white underline decoration-yellow-600 decoration-[3px] font-bold'>{props.tittle}</h1>
-        </>
-    )
-}
-
-export function SizeChangeLog() {
-    return (
-        <>
-            <span className='inline-block w-full bg-slate-900 rounded-es rounded-ee cursor-pointer' onClick={() => {
-                if (document.getElementById('sizeChangeLog').style.height == '30vh') {
-                    document.getElementById('sizeChangeLog').style.height = "100%";
-                } else {
-                    document.getElementById('sizeChangeLog').style.height = "30vh";
-                }
-            }}>luas/sempit</span>
         </>
     )
 }

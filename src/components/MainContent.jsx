@@ -4,9 +4,9 @@ import Changelog from './Changelog';
 function MainContent() {
     return (
         <>
-            <section className='text-center text-white w-[70%] mr-auto ml-auto max-md:w-[90%]'>
-                <Changelog />
-                <Link to={'/list'} className='inline-block pt-1 pb-1 mt-10 text-xl bg-fuchsia-600 w-full uppercase rounded-md select-none hover:bg-fuchsia-700'>Buka Daftar Cheat PS2</Link>
+            <section className='fixed left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%] text-white text-center'>
+                <h1>Haii Pengunjung, welcome to kumpulan kumpulan cheat game ps2 with pnach.</h1>
+                <h1>tombol navigasi ada di pojok kanan atas yg tulisan "MENU"</h1>
             </section>
         </>
     )
