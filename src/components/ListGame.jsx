@@ -67,7 +67,8 @@ export default function ListGame() {
             <Navbar />
             <div className='text-2xl text-white text-center uppercase mt-16'>
                 <h1>Daftar Cheat Pnach</h1>
-                <hr className='mt-3 mb-2 w-[70%] mr-auto ml-auto' />
+                <p className='text-xs normal-case mt-3'>Jika ingin melihat apa saja cheat yg sudah ditambahkan lihat di <Link to={'/changelog'} target='_blank'>"Changelog"</Link></p>
+                <hr className='mb-2 w-[70%] mr-auto ml-auto' />
                 <div className='flex flex-wrap'>
                     <div className='w-full mt-2'>
                         <Huruf abjad='a' url='/list/a' />
