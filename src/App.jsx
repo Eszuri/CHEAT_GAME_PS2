@@ -42,6 +42,7 @@ import List_X from './list-cheat/X/LIST_X';
 import List_Y from './list-cheat/Y/LIST_Y';
 import List_Z from './list-cheat/Z/LIST_Z';
 import Changelog from './components/Changelog';
+import MetalSlugAnthology from './list-cheat/M/MetalSlugAnthology';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -103,6 +104,7 @@ function App() {
         <Route path="/metalslug3" element={<MetalSlug3EU />} />
         <Route path="/metalslug4" element={<MetalSlug4Disc1 />} />
         <Route path="/metalslug5" element={<MetalSlug5Disc2 />} />
+        <Route path="/metalslug-anthology" element={<MetalSlugAnthology />} />
         <Route path="/mksm" element={<MortalKombatShaolinMonk />} />
 
         {/* list N */}

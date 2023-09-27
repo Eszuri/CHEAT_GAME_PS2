@@ -7,6 +7,7 @@ export default function List_M() {
             <Tersedia abjad="Metal Slug 3" url="/metalslug3" />
             <Tersedia abjad="Metal Slug 4 & 5 [Disc 1]" url="/metalslug4" />
             <Tersedia abjad="Metal Slug 4 & 5 [Disc 2]" url="/metalslug5" />
+            <Tersedia abjad="Metal Slug Anthology" url="/metalslug-anthology" />
             <Tersedia abjad="Mortal Kombat - Shaolin Monks" url="/mksm" />
             <NotTersedia />
             <NotTersediaEnd />
