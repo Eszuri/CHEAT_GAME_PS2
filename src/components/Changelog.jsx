@@ -11,6 +11,12 @@ export default function Changelog() {
                 <h1 className='text-2xl mt-14 text-white text-center'>Log Perubahan {"(Changelog)"}</h1>
                 <br />
                 {/* pemisah */}
+                <BOXCHANGELOG tanggal="27 September 2023">
+                    <WebUpdateTittle tittle="Penambahan Cheat" />
+                    <WebUpdate perubahan="Metal Slug Anthology (Belum selesai)" />
+                </BOXCHANGELOG>
+
+                {/* pemisah */}
                 <BOXCHANGELOG tanggal="21 September 2023">
                     <WebUpdateTittle tittle="Penambahan Cheat" />
                     <WebUpdate perubahan="Metal Slug 4 & 5 [Disc 1]" />
@@ -38,7 +44,7 @@ export default function Changelog() {
                 {/* pemisah */}
                 <BOXCHANGELOG tanggal="29 Agustus 2023">
                     <WebUpdateTittle tittle="Penambahan Cheat" />
-                    <WebUpdate perubahan="God Of War II" />
+                    <WebUpdate perubahan="God Of War II (Belum selesai)" />
                 </BOXCHANGELOG>
 
                 {/* pemisah */}
