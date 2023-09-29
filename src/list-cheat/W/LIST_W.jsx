@@ -4,7 +4,7 @@ export default function List_W() {
     return (
         <>
             <PageHuruf abjad="W" />
-            <NotTersedia />
+            <Tersedia abjad="Warriors, The" url="/thewarriors" />
             <NotTersedia />
             <NotTersedia />
             <NotTersediaEnd />

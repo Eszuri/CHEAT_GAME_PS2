@@ -43,6 +43,7 @@ import List_Y from './list-cheat/Y/LIST_Y';
 import List_Z from './list-cheat/Z/LIST_Z';
 import Changelog from './components/Changelog';
 import MetalSlugAnthology from './list-cheat/M/MetalSlugAnthology';
+import TheWarriors from './list-cheat/W/TheWarriors';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -137,6 +138,7 @@ function App() {
 
         {/* list W */}
         <Route path="/list/w" element={<List_W />} />
+        <Route path="/thewarriors" element={<TheWarriors />} />
 
         {/* list X */}
         <Route path="/list/x" element={<List_X />} />
