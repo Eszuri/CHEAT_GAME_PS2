@@ -44,6 +44,7 @@ import List_Z from './list-cheat/Z/LIST_Z';
 import Changelog from './components/Changelog';
 import MetalSlugAnthology from './list-cheat/M/MetalSlugAnthology';
 import TheWarriors from './list-cheat/W/TheWarriors';
+import Tekken4 from './list-cheat/T/Tekken4';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -129,6 +130,7 @@ function App() {
 
         {/* list T */}
         <Route path="/list/t" element={<List_T />} />
+        <Route path="/tekken4" element={<Tekken4 />} />
 
         {/* list U */}
         <Route path="/list/u" element={<List_U />} />

@@ -11,6 +11,12 @@ export default function Changelog() {
                 <h1 className='text-2xl mt-14 text-white text-center'>Log Perubahan {"(Changelog)"}</h1>
                 <br />
                 {/* pemisah */}
+                <BOXCHANGELOG tanggal="1 Oktober 2023">
+                    <WebUpdateTittle tittle="Penambahan Cheat" />
+                    <WebUpdate perubahan="Tekken 4" />
+                </BOXCHANGELOG>
+
+                {/* pemisah */}
                 <BOXCHANGELOG tanggal="29 September 2023">
                     <WebUpdateTittle tittle="Penambahan Cheat" />
                     <WebUpdate perubahan="Warriors, The (biasa di sebut The Warriors)" />

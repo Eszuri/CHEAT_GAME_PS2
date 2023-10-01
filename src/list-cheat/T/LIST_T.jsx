@@ -4,7 +4,7 @@ export default function List_T() {
     return (
         <>
             <PageHuruf abjad="T" />
-            <NotTersedia />
+            <Tersedia abjad="Tekken 4" url="/tekken4" />
             <NotTersedia />
             <NotTersedia />
             <NotTersediaEnd />
