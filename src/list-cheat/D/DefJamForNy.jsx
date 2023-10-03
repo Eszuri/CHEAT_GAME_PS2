@@ -14,7 +14,6 @@ function DefJamForNy() {
     return (
         <>
             <Navbar />
-            <Menu />
             <Ps2Pagetitle
                 judul='Def Jam - Fight for NY'
                 descJudul='Def Jam - Fight for NY'
