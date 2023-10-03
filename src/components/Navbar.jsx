@@ -1,16 +1,18 @@
 import Mylogo from '../images/MyLogo.png'
 import '../Global.css'
 import { Link } from 'react-router-dom'
+import Search from './Search';
 
 export default function Navbar(props) {
     return (
         <>
             <section className='bg-slate-700 fixed w-full top-0 text-white flex items-center h-12 z-20'>
                 <div className='w-[100px]'>
-                    <Link to={"/"} onClick={() => { document.getElementById("bukaMenu").style.right = "100%" }}>
+                    <Link to={"/"}>
                         <img src={Mylogo} alt="logo pribadi" className='w-[100px] cursor-pointer' />
                     </Link>
                 </div>
+                <Search />
                 <div className=' flex justify-between hover:opacity-70 bg-stone-900 absolute right-5 cursor-pointer pt-1 pb-1 pl-6 pr-3 select-none text-lg rounded' onClick={() => {
                     document.getElementById('menurotate').classList.toggle("rotate-[270deg]");
                     document.getElementById('menulist').classList.toggle("h-auto");
