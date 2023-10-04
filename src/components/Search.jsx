@@ -61,7 +61,7 @@ export default function Search() {
                     id="mySearch"
                     onInput={handleInputChange}
                     placeholder="Cari Cheat ..."
-                    className="text-black p-1 rounded focus:border-2 focus:border-emerald-500 outline-none caret-red-600 font-sans w-96 max-sm:w-64 max-[500px]:w-28"
+                    className="text-white p-1 bg-slate-700 border-2 rounded focus:border-2 focus:border-emerald-500 outline-none caret-red-600 font-sans w-96 max-sm:w-64 max-[500px]:w-28 placeholder:text-white placeholder:opacity-70 duration-100"
                 />
                 <span className="text-2xl cursor-pointer select-none hidden" id="deleteSearch" onClick={(event) => { document.getElementById('mySearch').value = ""; document.getElementById('listSearch').style.display = "none"; event.target.style.display = "none"; }}>🗑️</span>
             </div>

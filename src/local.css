@@ -174,3 +174,19 @@
         color: red;
     }
 }
+
+.daftarCheat {
+    animation-name: heigh;
+    animation-duration: 0.2s;
+}
+
+/* Add Animation */
+@keyframes heigh {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 165px;
+    }
+}
