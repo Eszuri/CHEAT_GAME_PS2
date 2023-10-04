@@ -16,6 +16,12 @@ export function PageHuruf(props) {
             <Navbar />
             <h1 className='text-white text-3xl ml-8 mt-16 uppercase'>{props.abjad}</h1>
             <hr className='w-[85%] ml-8 mb-2' />
+            <div id='notTersedia' style={{ display: "none" }}>
+                <NotTersedia />
+                <NotTersedia />
+                <NotTersedia />
+                <NotTersediaEnd />
+            </div>
         </>
     )
 }
@@ -37,8 +43,8 @@ export function TersediaEnd(props) {
             <div className='flex ml-8 text-2xl'>
                 <span className='text-yellow-500 mr-1'>└──</span>
                 <Link to={props.url} className='cursor-pointer text-green-400 font-bold'>{props.abjad}</Link>
-                <PrevOrHome />
             </div>
+            <PrevOrHome />
         </>
     )
 }

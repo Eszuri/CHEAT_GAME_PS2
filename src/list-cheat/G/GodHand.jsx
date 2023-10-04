@@ -18,10 +18,6 @@ export default function GodHand() {
                 descCRC='6FB69282'
                 descRegion='NTSC - U' />
             <Ps2PageStepUsage namaFile='6FB69282.pnach' />
-            <div className='mt-32'>
-                <TextCarapakaikodedengancontoller />
-                <Ps2PageControllerCode Titlekode='Saat ini belom ada ' />
-            </div>
             <BoilerplateRawPNACH urlFile="/6FB69282.pnach" />
             <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4378-title-god+hand.html" namaSumberKode="1. CodeTwink" />

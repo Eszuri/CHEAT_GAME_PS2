@@ -1,12 +1,22 @@
-import { NotTersedia, NotTersediaEnd, PageHuruf, Tersedia } from "../../components/ListGame";
+import { useEffect } from "react";
+import { PageHuruf, Tersedia, TersediaEnd } from "../../components/ListGame";
+export default function List_D() {
+    useEffect(() => {
+        if (componentD.length == 0) {
+            document.getElementById('notTersedia').style.display = "block";
+        } else {
+            document.getElementById('notTersedia').style.display = "none";
+        }
+    })
+    return (
+        <>
+            <PageHuruf abjad="D" />
+            {componentD.map((items) => (<div key={items.secret}>{items.nama}</div>))}
+        </>
+    )
+}
 
-export default function List_D() { const listItems = component.map(person => <div key={person.id}>{person.import}</div>); return <>{listItems}</>; }
-const pageHuruf = [{ id: 0, import: <PageHuruf abjad="D" /> }]
-const notTersedia = [{ id: 99999, import: <NotTersedia /> }, { id: 999999, import: <NotTersedia /> }, { id: 9999999, import: <NotTersediaEnd /> },]
-// pemisah
-const tersedia = [
-    { id: 1, import: <Tersedia abjad="Def Jam - Fight for NY" url="/defjam" /> },
-    { id: 2, import: <Tersedia abjad="Digimon Rumble Arena 2" url="/digruma2" /> },
+export const componentD = [
+    { secret: "ListD-1", nama: <Tersedia url="/defjam" abjad="Def Jam - Fight for NY" /> },
+    { secret: "ListD-2", nama: <TersediaEnd url="/digruma2" abjad="Digimon Rumble Arena 2" /> },
 ]
-const component = [...pageHuruf, ...tersedia, ...notTersedia];
-export const jumlahTersediaD = tersedia.length;

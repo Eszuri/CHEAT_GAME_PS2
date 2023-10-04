@@ -18,10 +18,6 @@ export default function GhostRider() {
                 descCRC='FA6D7EEA'
                 descRegion='NTSC - U' />
             <Ps2PageStepUsage namaFile='FA6D7EEA.pnach' />
-            <div className='mt-32'>
-                <TextCarapakaikodedengancontoller />
-                <Ps2PageControllerCode Titlekode='Saat ini belom ada ' />
-            </div>
             <BoilerplateRawPNACH urlFile="FA6D7EEA.pnach" />
             <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4444-title-ghost+rider.html" namaSumberKode="1. CodeTwink" />

@@ -19,10 +19,6 @@ export default function GodOfWar() {
                 descCRC='D6385328'
                 descRegion='NTSC - U' />
             <Ps2PageStepUsage namaFile='D6385328.pnach' />
-            <div className='mt-32'>
-                <TextCarapakaikodedengancontoller />
-                <Ps2PageControllerCode Titlekode='Saat ini belom ada ' />
-            </div>
             <BoilerplateRawPNACH urlFile="/D6385328.pnach" />
             <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4118-title-god+of+war.html" namaSumberKode="1. CodeTwink" />

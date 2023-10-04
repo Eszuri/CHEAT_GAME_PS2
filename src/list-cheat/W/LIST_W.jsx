@@ -1,13 +1,21 @@
-import { NotTersedia, NotTersediaEnd, PageHuruf, Tersedia } from "../../components/ListGame";
-
+import { useEffect } from "react";
+import { PageHuruf, Tersedia, TersediaEnd } from "../../components/ListGame";
 export default function List_W() {
+    useEffect(() => {
+        if (componentW.length == 0) {
+            document.getElementById('notTersedia').style.display = "block";
+        } else {
+            document.getElementById('notTersedia').style.display = "none";
+        }
+    })
     return (
         <>
             <PageHuruf abjad="W" />
-            <Tersedia abjad="Warriors, The" url="/thewarriors" />
-            <NotTersedia />
-            <NotTersedia />
-            <NotTersediaEnd />
+            {componentW.map((items) => (<div key={items.secret}>{items.nama}</div>))}
         </>
     )
 }
+
+export const componentW = [
+    { secret: "ListW-1", nama: <TersediaEnd abjad="Warriors, The" url="/thewarriors" /> },
+]

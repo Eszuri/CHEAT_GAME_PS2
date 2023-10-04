@@ -18,10 +18,6 @@ export default function DigimonRumbleArena2() {
                 descCRC='568A5C78'
                 descRegion='NTSC - U' />
             <Ps2PageStepUsage namaFile='568A5C78.pnach' />
-            <div className='mt-32'>
-                <TextCarapakaikodedengancontoller />
-                <Ps2PageControllerCode Titlekode='Saat ini belom ada ' />
-            </div>
             <BoilerplateRawPNACH urlFile="/568A5C78.pnach" />
             <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/103510" namaSumberKode="1. GameHacking" />

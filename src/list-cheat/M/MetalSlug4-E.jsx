@@ -18,10 +18,6 @@ export default function MetalSlug4Disc1() {
                 descCRC='D62C4CD0'
                 descRegion='NTSC-U' />
             <Ps2PageStepUsage namaFile='D62C4CD0.pnach' />
-            <div className='mt-32'>
-                <TextCarapakaikodedengancontoller />
-                <Ps2PageControllerCode Titlekode='Saat ini belom ada ' />
-            </div>
             <BoilerplateRawPNACH urlFile="/D62C4CD0.pnach" />
             <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/104252" namaSumberKode="1. GameHacking" />

@@ -18,10 +18,6 @@ export default function RumbleRacing() {
                 descCRC='2F5354BE'
                 descRegion='NTSC - U' />
             <Ps2PageStepUsage namaFile='2F5354BE.pnach' />
-            <div className='mt-32'>
-                <TextCarapakaikodedengancontoller />
-                <Ps2PageControllerCode Titlekode='Saat ini belom ada ' />
-            </div>
             <BoilerplateRawPNACH urlFile="/2F5354BE.pnach" />
             <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/104814" namaSumberKode="1. GameHacking" />
