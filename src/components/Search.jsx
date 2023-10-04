@@ -46,20 +46,25 @@ export default function Search() {
         setFilter(e.target.value.toUpperCase());
         if (document.getElementById('mySearch').value == 0) {
             document.getElementById('listSearch').style.display = "none"
+            document.getElementById('deleteSearch').style.display = "none";
         } else {
-            document.getElementById('listSearch').style.display = "block"
+            document.getElementById('listSearch').style.display = "block";
+            document.getElementById('deleteSearch').style.display = "inline";
         }
     };
 
     return (
         <>
-            <input
-                type="search"
-                id="mySearch"
-                onInput={handleInputChange}
-                placeholder="Cari Cheat ..."
-                className="text-black p-1 rounded focus:border-2 focus:border-emerald-500 outline-none caret-red-600 font-sans"
-            />
+            <div className="flex">
+                <input
+                    type="search"
+                    id="mySearch"
+                    onInput={handleInputChange}
+                    placeholder="Cari Cheat ..."
+                    className="text-black p-1 rounded focus:border-2 focus:border-emerald-500 outline-none caret-red-600 font-sans w-96 max-sm:w-64 max-[500px]:w-28"
+                />
+                <span className="text-2xl cursor-pointer select-none hidden" id="deleteSearch" onClick={(event) => { document.getElementById('mySearch').value = ""; document.getElementById('listSearch').style.display = "none"; event.target.style.display = "none"; }}>🗑️</span>
+            </div>
             <ul id="listSearch" className={ul}>
                 {categories.map((category, index) => {
                     if (category.judul.toUpperCase().indexOf(filter) > -1) {

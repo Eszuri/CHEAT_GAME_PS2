@@ -9,7 +9,7 @@ export default function Navbar(props) {
             <section className='bg-slate-700 fixed w-full top-0 text-white flex items-center h-12 z-20 justify-between'>
                 <div className='w-[100px]'>
                     <Link to={"/"}>
-                        <img src={Mylogo} alt="logo pribadi" className='w-[100px] cursor-pointer' />
+                        <img src={Mylogo} alt="logo pribadi" className='cursor-pointer' style={{ width: '80px' }} />
                     </Link>
                 </div>
                 <Search />
@@ -21,7 +21,8 @@ export default function Navbar(props) {
                     } else {
                         document.getElementById('menulist').style.height = "0px";
                     }
-                }}>
+                }}
+                >
                     <p className='mr-1'>MENU</p>
                     <span className='rotate-90 duration-300 text-yellow-400 font-bold' id='menurotate'>{'﹥'}</span>
                 </div>

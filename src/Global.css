@@ -548,12 +548,20 @@ video {
   bottom: 0px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
 
 .left-1\/2 {
   left: 50%;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .right-3 {
@@ -578,14 +586,6 @@ video {
 
 .top-\[52px\] {
   top: 52px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
 }
 
 .z-10 {
@@ -709,10 +709,6 @@ video {
   margin-top: -10px;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .block {
   display: block;
 }
@@ -815,6 +811,10 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-\[100px\] {
@@ -933,16 +933,8 @@ video {
   overflow: hidden;
 }
 
-.overflow-scroll {
-  overflow: scroll;
-}
-
 .overflow-y-auto {
   overflow-y: auto;
-}
-
-.overflow-y-scroll {
-  overflow-y: scroll;
 }
 
 .whitespace-nowrap {
@@ -1493,6 +1485,12 @@ br {
   }
 }
 
+@media not all and (min-width: 640px) {
+  .max-sm\:w-64 {
+    width: 16rem;
+  }
+}
+
 @media (max-width: 639px) {
   .max-\[639px\]\:mt-5 {
     margin-top: 1.25rem;
@@ -1513,6 +1511,18 @@ br {
   .max-\[639px\]\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .max-\[500px\]\:w-28 {
+    width: 7rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .max-\[450px\]\:w-28 {
+    width: 7rem;
   }
 }
 
