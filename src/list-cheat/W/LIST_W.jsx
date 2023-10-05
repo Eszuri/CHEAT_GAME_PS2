@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { PageHuruf, Tersedia, TersediaEnd } from "../../components/ListGame";
 export default function List_W() {
     useEffect(() => {
-        if (componentW.length == 0) {
+        if (component.length == 0) {
             document.getElementById('notTersedia').style.display = "block";
         } else {
             document.getElementById('notTersedia').style.display = "none";
@@ -11,11 +11,12 @@ export default function List_W() {
     return (
         <>
             <PageHuruf abjad="W" />
-            {componentW.map((items) => (<div key={items.secret}>{items.nama}</div>))}
+            {component.map((items) => (<div key={items.secret}>{items.nama}</div>))}
         </>
     )
 }
 
-export const componentW = [
+const component = [
     { secret: "ListW-1", nama: <TersediaEnd abjad="Warriors, The" url="/thewarriors" /> },
 ]
+export const componentW = component.length;

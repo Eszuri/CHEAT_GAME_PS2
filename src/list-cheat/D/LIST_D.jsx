@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { PageHuruf, Tersedia, TersediaEnd } from "../../components/ListGame";
 export default function List_D() {
     useEffect(() => {
-        if (componentD.length == 0) {
+        if (component.length == 0) {
             document.getElementById('notTersedia').style.display = "block";
         } else {
             document.getElementById('notTersedia').style.display = "none";
@@ -11,12 +11,13 @@ export default function List_D() {
     return (
         <>
             <PageHuruf abjad="D" />
-            {componentD.map((items) => (<div key={items.secret}>{items.nama}</div>))}
+            {component.map((items) => (<div key={items.secret}>{items.nama}</div>))}
         </>
     )
 }
 
-export const componentD = [
+const component = [
     { secret: "ListD-1", nama: <Tersedia url="/defjam" abjad="Def Jam - Fight for NY" /> },
     { secret: "ListD-2", nama: <TersediaEnd url="/digruma2" abjad="Digimon Rumble Arena 2" /> },
 ]
+export const componentD = component.length;

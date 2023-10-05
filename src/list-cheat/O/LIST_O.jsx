@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { PageHuruf, Tersedia, TersediaEnd } from "../../components/ListGame";
 export default function List_O() {
     useEffect(() => {
-        if (componentO.length == 0) {
+        if (component.length == 0) {
             document.getElementById('notTersedia').style.display = "block";
         } else {
             document.getElementById('notTersedia').style.display = "none";
@@ -11,12 +11,13 @@ export default function List_O() {
     return (
         <>
             <PageHuruf abjad="O" />
-            {componentO.map((items) => (<div key={items.secret}>{items.nama}</div>))}
+            {component.map((items) => (<div key={items.secret}>{items.nama}</div>))}
         </>
     )
 }
 
-export const componentO = [
+const component = [
     // { secret: "ListO-1", nama: <Tersedia url="" abjad="" /> },
     // { secret: "ListO-2", nama: <TersediaEnd url="" abjad="" /> },
 ]
+export const componentO = component.length;
