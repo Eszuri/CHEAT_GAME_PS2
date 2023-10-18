@@ -12,6 +12,12 @@ export default function Changelog() {
                 <br />
                 {/* pemisah */}
                 <BOXCHANGELOG tanggal="3 Oktober 2023">
+                    <WebUpdateTittle tittle="Penambahan Cheat" />
+                    <WebUpdate perubahan="Def Jam: Fight for NY (Europe) (belum selesai)" />
+                </BOXCHANGELOG>
+
+                {/* pemisah */}
+                <BOXCHANGELOG tanggal="3 Oktober 2023">
                     <WebUpdateTittle tittle="Penambahan Fitur Web" />
                     <WebUpdate perubahan="Menambahkan fitur Search di Navbar" />
                 </BOXCHANGELOG>

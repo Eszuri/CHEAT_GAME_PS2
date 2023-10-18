@@ -18,6 +18,7 @@ export default function List_D() {
 
 const component = [
     { secret: "ListD-1", nama: <Tersedia url="/defjam" abjad="Def Jam - Fight for NY" /> },
-    { secret: "ListD-2", nama: <TersediaEnd url="/digruma2" abjad="Digimon Rumble Arena 2" /> },
+    { secret: "ListD-2", nama: <Tersedia url="/defjam-eu" abjad="Def Jam - Fight for NY (Europe)" /> },
+    { secret: "ListD-3", nama: <TersediaEnd url="/digruma2" abjad="Digimon Rumble Arena 2" /> },
 ]
 export const componentD = component.length;

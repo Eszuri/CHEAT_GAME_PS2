@@ -45,6 +45,7 @@ import Changelog from './components/Changelog';
 import MetalSlugAnthology from './list-cheat/M/MetalSlugAnthology';
 import TheWarriors from './list-cheat/W/TheWarriors';
 import Tekken4 from './list-cheat/T/Tekken4';
+import DefJamForNyEU from './list-cheat/D/DefJamForNyEU';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -71,6 +72,7 @@ function App() {
         {/* list D */}
         <Route path="/list/d" element={<List_D />} />
         <Route path="/defjam" element={<DefJamForNy />} />
+        <Route path="/defjam-eu" element={<DefJamForNyEU />} />
         <Route path="/digruma2" element={<DigimonRumbleArena2 />} />
 
         {/* list E */}
