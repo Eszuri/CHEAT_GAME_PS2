@@ -39,6 +39,7 @@ export default function Search() {
         { url: "/rumbleracing", judul: "Rumble Racing", img: ps2logo },
         // T
         { url: "/tekken4", judul: "Tekken 4", img: ps2logo },
+        { url: "/twistedmetalblack", judul: "Twisted Metal - Black", img: ps2logo },
         // W
         { url: "/thewarriors", judul: "Warriors, The", img: ps2logo },
     ];

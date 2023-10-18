@@ -14,6 +14,7 @@ export default function Changelog() {
                 <BOXCHANGELOG tanggal="18 Oktober 2023">
                     <WebUpdateTittle tittle="Penambahan Cheat" />
                     <WebUpdate perubahan="Def Jam: Fight for NY (Europe)" />
+                    <WebUpdate perubahan="Twisted Metal - Black" />
                 </BOXCHANGELOG>
 
                 {/* pemisah */}

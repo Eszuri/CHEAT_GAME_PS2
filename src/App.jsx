@@ -45,6 +45,7 @@ import Changelog from './components/Changelog';
 import MetalSlugAnthology from './list-cheat/M/MetalSlugAnthology';
 import TheWarriors from './list-cheat/W/TheWarriors';
 import Tekken4 from './list-cheat/T/Tekken4';
+import TwistedMetalBlack from './list-cheat/T/TwistedMetalBlack';
 import DefJamForNyEU from './list-cheat/D/DefJamForNyEU';
 
 function App() {
@@ -133,6 +134,7 @@ function App() {
         {/* list T */}
         <Route path="/list/t" element={<List_T />} />
         <Route path="/tekken4" element={<Tekken4 />} />
+        <Route path="/twistedmetalblack" element={<TwistedMetalBlack />} />
 
         {/* list U */}
         <Route path="/list/u" element={<List_U />} />
