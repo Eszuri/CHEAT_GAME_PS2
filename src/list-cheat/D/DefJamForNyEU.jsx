@@ -15,16 +15,16 @@ function DefJamForNyEU() {
         <>
             <Navbar />
             <Ps2Pagetitle
-                judul='Def Jam - Fight for NY [Belum selesai]'
+                judul='Def Jam - Fight for NY'
                 descJudul='Def Jam - Fight for NY (Europe)'
                 descSerial='SLES-52507'
-                descCRC='unknown'
-                descRegion='PAL - Unk' />
-            <Ps2PageStepUsage namaFile='unknown.pnach' />
-            <BoilerplateRawPNACH urlFile="Def Jam - Fight for New York (PAL-Unk).pnach.pnach" />
+                descCRC='873F8ED6.pnach'
+                descRegion='PAL - Unk / PAL - E' />
+            <Ps2PageStepUsage namaFile='873F8ED6.pnach' />
+            <BoilerplateRawPNACH urlFile="873F8ED6.pnach" />
             <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/101117" namaSumberKode="1. GameHacking" />
-            <Ps2PageDownloadLink namaFile="unknown.pnach" />
+            <Ps2PageDownloadLink namaFile="873F8ED6.pnach" />
             <PrevOrHome />
         </>
     )
