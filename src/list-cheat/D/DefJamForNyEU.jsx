@@ -21,7 +21,7 @@ function DefJamForNyEU() {
                 descCRC='unknown'
                 descRegion='PAL - Unk' />
             <Ps2PageStepUsage namaFile='unknown.pnach' />
-            <BoilerplateRawPNACH urlFile="/unknown.pnach" />
+            <BoilerplateRawPNACH urlFile="Def Jam - Fight for New York (PAL-Unk).pnach.pnach" />
             <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/101117" namaSumberKode="1. GameHacking" />
             <Ps2PageDownloadLink namaFile="unknown.pnach" />
