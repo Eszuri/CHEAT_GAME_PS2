@@ -15,7 +15,7 @@ function DefJamForNyEU() {
         <>
             <Navbar />
             <Ps2Pagetitle
-                judul='Def Jam - Fight for NY'
+                judul='Def Jam - Fight for NY [Belum selesai]'
                 descJudul='Def Jam - Fight for NY (Europe)'
                 descSerial='SLES-52507'
                 descCRC='unknown'
