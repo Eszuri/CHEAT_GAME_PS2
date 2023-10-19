@@ -24,6 +24,8 @@ function DefJamForNyEU() {
             <BoilerplateRawPNACH urlFile="873F8ED6.pnach" />
             <SourceCode text="Sumber Kode :" />
             <LinkSourceCode urlSumberKode="https://gamehacking.org/game/101117" namaSumberKode="1. GameHacking" />
+            <SourceCode text="Sumber Game :" />
+            <LinkSourceCode urlSumberKode="https://www.retrostic.com/roms/ps-2/def-jam-fight-for-ny-e-83700/download" namaSumberKode="1. Retrostic" />
             <Ps2PageDownloadLink namaFile="873F8ED6.pnach" />
             <PrevOrHome />
         </>
