@@ -47,6 +47,7 @@ import TheWarriors from './list-cheat/W/TheWarriors';
 import Tekken4 from './list-cheat/T/Tekken4';
 import TwistedMetalBlack from './list-cheat/T/TwistedMetalBlack';
 import DefJamForNyEU from './list-cheat/D/DefJamForNyEU';
+import TwistedMetalBlack2 from './list-cheat/T/TwistedMetalBlack2';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -134,7 +135,8 @@ function App() {
         {/* list T */}
         <Route path="/list/t" element={<List_T />} />
         <Route path="/tekken4" element={<Tekken4 />} />
-        <Route path="/twistedmetalblack" element={<TwistedMetalBlack />} />
+        <Route path="/twistedmetalblack97179" element={<TwistedMetalBlack />} />
+        <Route path="/twistedmetalblack97101" element={<TwistedMetalBlack2 />} />
 
         {/* list U */}
         <Route path="/list/u" element={<List_U />} />

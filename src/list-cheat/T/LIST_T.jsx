@@ -18,6 +18,7 @@ export default function List_T() {
 
 const component = [
     { secret: "ListT-1", nama: <Tersedia abjad="Tekken 4" url="/tekken4" /> },
-    { secret: "ListT-2", nama: <TersediaEnd abjad="Twisted Metal - Black" url="/twistedMetalblack" /> },
+    { secret: "ListT-2", nama: <Tersedia abjad="Twisted Metal - Black (NTSC - U) [SCUS-97101]" url="/twistedMetalblack97101" /> },
+    { secret: "ListT-3", nama: <TersediaEnd abjad="Twisted Metal - Black (NTSC - U) [SCUS-97179]" url="/twistedMetalblack97179" /> },
 ]
 export const componentT = component.length;
