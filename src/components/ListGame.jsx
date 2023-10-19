@@ -32,7 +32,7 @@ import { componentZ } from '../list-cheat/Z/LIST_Z';
 export function Huruf(props) {
     return (
         <>
-            <div className='hover:bg-emerald-700 border-2 w-[70%] mr-auto ml-auto mb-10 rounded flex justify-between'>
+            <div className='hover:bg-emerald-700 border-2 w-[90%] mr-auto ml-auto mb-10 rounded flex justify-between'>
                 <Link to={props.url} className='rounded w-full inline-block text-left text-xl p-2  uppercase pl-5'>{props.abjad}</Link>
                 <h1 className="text-xl p-2 pr-5">{props.jumlah}</h1>
             </div>
@@ -60,7 +60,7 @@ export function Tersedia(props) {
         <>
             <div className='flex ml-8 text-2xl'>
                 <span className='text-yellow-500 mr-1'>├──</span>
-                <Link to={props.url} className='cursor-pointer text-green-400 font-bold'>{props.abjad}</Link>
+                <Link to={props.url} className='cursor-pointer text-green-400 font-bold text-xl max-sm:text-base'>{props.abjad}</Link>
             </div>
         </>
     )
@@ -71,7 +71,7 @@ export function TersediaEnd(props) {
         <>
             <div className='flex ml-8 text-2xl'>
                 <span className='text-yellow-500 mr-1'>└──</span>
-                <Link to={props.url} className='cursor-pointer text-green-400 font-bold'>{props.abjad}</Link>
+                <Link to={props.url} className='cursor-pointer text-green-400 font-bold text-xl max-sm:text-base'>{props.abjad}</Link>
             </div>
             <PrevOrHome />
         </>
@@ -81,7 +81,7 @@ export function TersediaEnd(props) {
 export function NotTersedia(props) {
     return (
         <>
-            <h1 className='ml-8 text-2xl text-red-600 font-bold'><span className='text-yellow-500 mr-1'>├──</span>Belum Tersedia</h1>
+            <h1 className='ml-8 text-red-600 font-bold text-xl max-sm:text-base'><span className='text-yellow-500 mr-1 text-2xl'>├──</span>Belum Tersedia</h1>
         </>
     )
 }
@@ -89,7 +89,7 @@ export function NotTersedia(props) {
 export function NotTersediaEnd(props) {
     return (
         <>
-            <h1 className='ml-8 text-2xl text-red-600 font-bold'><span className='text-yellow-500 mr-1'>└──</span>Belum Tersedia</h1>
+            <h1 className='ml-8 text-xl max-sm:text-base text-red-600 font-bold'><span className='text-yellow-500 mr-1 text-2xl'>└──</span>Belum Tersedia</h1>
             <PrevOrHome />
         </>
     )
@@ -103,10 +103,10 @@ export default function ListGame() {
             <div className='text-2xl text-white text-center uppercase mt-16'>
                 <h1>Daftar Cheat Pnach</h1>
                 {/* <p className='text-xs normal-case mt-3'>Jika ingin melihat apa saja cheat yg sudah ditambahkan lihat di <Link to={'/changelog'} target='_blank'>"Changelog"</Link></p> */}
-                <div className="mb-2 w-[70%] mr-auto ml-auto mt-16">
+                <div className="mb-2 w-[90%] mr-auto ml-auto mt-16">
                     <div className="flex justify-between">
-                        <h1>alphabet</h1>
-                        <h1>Jumlah Game</h1>
+                        <h1 className='text-lg'>alphabet</h1>
+                        <h1 className='text-lg'>Jumlah Game</h1>
                     </div>
                     <hr />
                 </div>

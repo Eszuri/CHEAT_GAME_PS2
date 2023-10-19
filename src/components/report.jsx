@@ -10,6 +10,17 @@ function report(props) {
     const [name, setNama] = useState('');
     const [email, setEmail] = useState('');
     const [komentar, setKomentar] = useState('');
+    const time = new Date();
+        const perminggu = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"];
+        const perbulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+        let bulan = perbulan[time.getMonth()];
+        let hari = perminggu[time.getDay()];
+        let tanggal = time.getDate();
+        let tahun = time.getFullYear();
+        let jam = time.getHours();
+        let menit = time.getMinutes();
+        let detik = time.getSeconds();
+        let allJam = hari + tanggal + bulan + tahun + ',' + jam + menit + detik;
     // Kirim ke Fauna
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -17,7 +28,7 @@ function report(props) {
         client.query(
             q.Create(
                 q.Collection('Cheat-Ps2'),
-                { data: { Nama: name, Email: email, Komentar: komentar } }
+                { data: {Waktu_Terkirim:allJam, Nama: name, Email: email, Komentar: komentar } }
             )
         )
             .then(function () {
