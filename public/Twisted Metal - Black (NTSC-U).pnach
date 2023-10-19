@@ -1,4 +1,4 @@
-gametitle=Twisted Metal - Black (NTSC-U)
+gametitle=Twisted Metal - Black (NTSC-U) [SCUS-97179]
 
 // UNLOCK ALL CHARACTER MOVIE
 patch=1,EE,10425F58,extended,00000000
@@ -76,3 +76,7 @@ patch=1,EE,20105164,extended,00000000
 
 // NEVER RAINING 
 patch=1,EE,204FAB34,extended,00000000
+
+// kode udah bener, tapi belum saya coba.
+// tinggal cari CRC nya doang buat nama file ??????.pnach nya.
+// gw cari file gamenya ga ketemu ketemu.
