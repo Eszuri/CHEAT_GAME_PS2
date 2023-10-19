@@ -18,7 +18,7 @@ function DefJamForNyEU() {
                 judul='Def Jam - Fight for NY'
                 descJudul='Def Jam - Fight for NY (Europe)'
                 descSerial='SLES-52507'
-                descCRC='873F8ED6.pnach'
+                descCRC='873F8ED6'
                 descRegion='PAL - Unk / PAL - E' />
             <Ps2PageStepUsage namaFile='873F8ED6.pnach' />
             <BoilerplateRawPNACH urlFile="873F8ED6.pnach" />
