@@ -20,7 +20,7 @@ function report(props) {
         let jam = time.getHours();
         let menit = time.getMinutes();
         let detik = time.getSeconds();
-        let allJam = hari + tanggal + bulan + tahun + ',' + jam + menit + detik;
+        let allJam = hari + "," + tanggal + "-" + bulan + "-" + tahun + ',' + jam + "-" + menit + "-" + detik;
     // Kirim ke Fauna
     const handleSubmit = (e) => {
         e.preventDefault();
