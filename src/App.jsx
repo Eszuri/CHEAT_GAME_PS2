@@ -48,6 +48,7 @@ import Tekken4 from './list-cheat/T/Tekken4';
 import TwistedMetalBlack from './list-cheat/T/TwistedMetalBlack';
 import DefJamForNyEU from './list-cheat/D/DefJamForNyEU';
 import TwistedMetalBlack2 from './list-cheat/T/TwistedMetalBlack2';
+import NFS_Underground from './list-cheat/N/NFS_Underground';
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -115,6 +116,7 @@ function App() {
 
         {/* list N */}
         <Route path="/list/n" element={<List_N />} />
+        <Route path="/nfs-u" element={<NFS_Underground />} />
 
         {/* list O */}
         <Route path="/list/o" element={<List_O />} />

@@ -18,6 +18,6 @@ export default function List_N() {
 
 const component = [
     // { secret: "ListN-1", nama: <Tersedia url="" abjad="" /> },
-    // { secret: "ListN-2", nama: <TersediaEnd url="" abjad="" /> },
+    { secret: "ListN-2", nama: <TersediaEnd url="/nfs-u" abjad="Need for Speed - Underground" /> },
 ]
 export const componentN = component.length;
