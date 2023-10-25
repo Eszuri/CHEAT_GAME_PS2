@@ -12,6 +12,8 @@ export default function Changelog() {
                 <br />
                 {/* pemisah */}
                 <BOXCHANGELOG tanggal="25 Oktober 2023">
+                    <WebUpdateTittle tittle="PEMBERITAHUAN PENTING" />
+                    <WebUpdate perubahan="web ini ga aktif mulai saat ini (sementara bukan selamanya), dikarenakan alat tempur sedang rusak (alat tempur yg dimaksud pc gw) " />
                     <WebUpdateTittle tittle="Penambahan Cheat" />
                     <WebUpdate perubahan="Need for Speed - Underground" />
                 </BOXCHANGELOG>
