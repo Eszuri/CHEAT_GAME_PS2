@@ -96,6 +96,7 @@ patch=1,EE,2018D674,extended,10000005
 
 // DEBUG MENU (SAAT DI PAUSE)
 patch=1,EE,001F2B70,extended,00000007
+patch=1,EE,D1AA3C3C,extended,1DFDF4BE
 
 // INFINITE MONEY 
 patch=1,EE,104ADA0C,extended,0000FFFF
@@ -249,7 +250,6 @@ patch=1,EE,004A62DE,extended,00000001
 patch=1,EE,004A62DC,extended,00000001
 patch=1,EE,004A62DF,extended,00000001
 
-
 // MAX CASH 
 patch=1,EE,EE25A35E,extended,51B8B465
 patch=1,EE,204ADA0C,extended,05F5E0FF
@@ -313,7 +313,6 @@ patch=1,EE,EE19A44E,extended,E12ADF96
 // SUPER EASY AI 
 patch=1,EE,20500AB8,extended,00000001
 
-
 // UNLOCK ALL LEVEL 1 OPTIONS 
 patch=1,EE,004AC9EA,extended,00000002
 patch=1,EE,004AC9ED,extended,00000002
@@ -343,9 +342,11 @@ patch=1,EE,EEDBA74A,extended,50B5D467
 
 // NOS MODIFIER (01 - 03)
 // 0 - 255
-patch=1,EE,2046FC38,extended,00000000
+// patch=1,EE,2046FC38,extended,00000000
 
 // ALL UNDERGROUND RACE PROGRESS
 patch=1,EE,004AC9E7,extended,00000002
 patch=1,EE,104ACA54,extended,00000202
 patch=1,EE,004ACA56,extended,00000002
+
+// auto tamat , career 100% complete
