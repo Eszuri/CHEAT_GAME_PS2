@@ -1,4 +1,3 @@
-import '../Global.css'
 import '../local.css'
 
 function FailedUrl() {

@@ -11,6 +11,14 @@ export default function Changelog() {
                 <h1 className='text-2xl mt-14 text-white text-center'>Log Perubahan {"(Changelog)"}</h1>
                 <br />
                 {/* pemisah */}
+                <BOXCHANGELOG tanggal="25 Desember 2023">
+                    <WebUpdateTittle tittle="Penambahan Fitur Web" />
+                    <WebUpdate perubahan="Menambahkan Chat Global. (lihat di bagian MENU)" />
+                    <br />
+                    <WebUpdateTittle tittle="Penambahan Cheat" />
+                    <WebUpdate perubahan="Spiderman 3" />
+                </BOXCHANGELOG>
+                {/* pemisah */}
                 <BOXCHANGELOG tanggal="17 November 2023">
                     <WebUpdateTittle tittle="PEMBERITAHUAN PENTING" />
                     <WebUpdate perubahan="Alat Tempur Siap Kembali. Web Akan Aktif Kembali" />
@@ -19,6 +27,7 @@ export default function Changelog() {
                 <BOXCHANGELOG tanggal="25 Oktober 2023">
                     <WebUpdateTittle tittle="PEMBERITAHUAN PENTING" />
                     <WebUpdate perubahan="web ini ga aktif mulai saat ini (sementara bukan selamanya), dikarenakan alat tempur sedang rusak (alat tempur yg dimaksud pc gw) " />
+                    <br />
                     <WebUpdateTittle tittle="Penambahan Cheat" />
                     <WebUpdate perubahan="Need for Speed - Underground" />
                 </BOXCHANGELOG>

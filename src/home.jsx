@@ -1,6 +1,5 @@
 import MainContent from "./components/MainContent";
 import Navbar from "./components/Navbar";
-import './Global.css'
 function home() {
     return (
         <>

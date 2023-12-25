@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "../Global.css"
 import LogoDownload from "../images/logodownload.jpg"
 import PnachLogo from "../images/pnachlogo.png"
 

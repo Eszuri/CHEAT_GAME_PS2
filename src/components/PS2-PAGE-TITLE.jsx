@@ -1,4 +1,4 @@
-import '../Global.css'
+
 
 export function Ps2Pagetitle(props) {
     return (

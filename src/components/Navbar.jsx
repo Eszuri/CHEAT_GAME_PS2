@@ -1,5 +1,4 @@
 import Mylogo from '../images/MyLogo.png'
-import '../Global.css'
 import '../local.css'
 import { Link } from 'react-router-dom'
 import Search from './Search';
@@ -31,6 +30,7 @@ export default function Navbar(props) {
                     <Link to={"/report"} className='block hover:bg-gray-800 p-1 m-1 duration-300'>Laporkan</Link >
                     <Link to={"/request"} className='block hover:bg-gray-800 p-1 m-1 duration-300'>Request</Link>
                     <Link to={"/changelog"} className='block hover:bg-gray-800 p-1 m-1 duration-300'>Changelog</Link>
+                    <Link to={"/chat"} className='block hover:bg-gray-800 p-1 m-1 duration-300'>Chat Global</Link>
                 </div>
             </section>
         </>

@@ -11,7 +11,7 @@ export function Check(props) {
                             </svg>
                         </div>
                     </div>
-                    <h1 className="font-bold text-4xl uppercase text-white mt-5">{props.loadingtext}</h1>
+                    <h1 className="font-bold text-2xl uppercase text-white mt-5">{props.loadingtext}</h1>
                 </div>
             </section>
         </>

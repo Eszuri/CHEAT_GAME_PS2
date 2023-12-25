@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../Global.css'
+
 import Changelog from './Changelog';
 function MainContent() {
     return (

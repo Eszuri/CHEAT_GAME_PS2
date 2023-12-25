@@ -1,4 +1,4 @@
-import '../Global.css'
+
 export function TextCarapakaikodedengancontoller() {
     return (
         <>

@@ -1,4 +1,4 @@
-import '../Global.css'
+
 import LogoPauseAethersx2 from "../images/logopauseaethersx2.jpeg"
 import KodePatchAether from "../images/kodepatchaether.jpeg"
 import Save from "../images/save.jpeg"

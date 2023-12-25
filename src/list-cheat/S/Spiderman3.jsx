@@ -1,4 +1,3 @@
-
 import Navbar from '../../components/Navbar'
 import { Ps2Pagetitle } from '../../components/PS2-PAGE-TITLE'
 import Ps2PageStepUsage from '../../components/PS2-PAGE-STEP-USAGE'
@@ -6,22 +5,23 @@ import { BoilerplateRawPNACH, LinkSourceCode, SourceCode } from '../../component
 import Ps2PageDownloadLink from '../../components/PS2_PAGE_DOWNLOAD_LINK'
 import { PrevOrHome } from "../../components/report"
 
-export default function TwistedMetalBlack() {
+export default function Spiderman3() {
     return (
         <>
             <Navbar />
             <Ps2Pagetitle
-                judul='Twisted Metal - Black'
-                descJudul='Twisted Metal - Black'
-                descSerial='SCUS-97179'
-                descCRC='??????'
+                judul='Spiderman 3'
+                descJudul='Spiderman 3'
+                descSerial='SLUS-21552'
+                descCRC='29873A0C'
                 descRegion='NTSC - U' />
-            <Ps2PageStepUsage namaFile='??????.pnach' />
-            <BoilerplateRawPNACH urlFile="/Twisted Metal - Black (NTSC-U).pnach" />
+            <Ps2PageStepUsage namaFile='29873A0C.pnach' />
+            <BoilerplateRawPNACH urlFile="/29873A0C.pnach" />
             <SourceCode text="Sumber Kode :" />
-            <LinkSourceCode urlSumberKode="https://gamehacking.org/game/105239" namaSumberKode="1. GameHacking" />
+            <LinkSourceCode urlSumberKode="https://codetwink.com/view-cheats-4461-title-spider-man+3.html" namaSumberKode="1. CodeTwink" />
             <SourceCode text="Sumber Game :" />
-            <Ps2PageDownloadLink namaFile="Twisted Metal - Black (NTSC-U).pnach" />
+            <LinkSourceCode urlSumberKode="https://coolrom.com.au/roms/ps2/41856/Spider-Man_3.php" namaSumberKode="1. CoolROM" />
+            <Ps2PageDownloadLink namaFile="29873A0C.pnach" />
             <PrevOrHome />
         </>
     )

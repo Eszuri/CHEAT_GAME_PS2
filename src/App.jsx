@@ -1,4 +1,3 @@
-import './Global.css'
 import { Routes, Route } from "react-router-dom";
 import FailedUrl from './components/FailedUrl';
 import Home from './home';
@@ -49,6 +48,9 @@ import TwistedMetalBlack from './list-cheat/T/TwistedMetalBlack';
 import DefJamForNyEU from './list-cheat/D/DefJamForNyEU';
 import TwistedMetalBlack2 from './list-cheat/T/TwistedMetalBlack2';
 import NFS_Underground from './list-cheat/N/NFS_Underground';
+import ChatGlobal from "./components/chatGlobal";
+import Spiderman3 from "./list-cheat/S/Spiderman3";
+
 
 function App() {
   document.body.style.backgroundColor = "#202c33";
@@ -61,6 +63,7 @@ function App() {
         <Route path="/report" element={<Report placeholder="Ketikkan laporan anda disini" tittle="Laporkan" />} />
         <Route path="/request" element={<Report placeholder="Ketikkan request anda disini" tittle="Request" />} />
         <Route path="/changelog" element={<Changelog />} />
+        <Route path="/chat" element={<ChatGlobal />} />
         <Route path="*" element={<FailedUrl />} />
 
         {/* list A */}
@@ -133,6 +136,7 @@ function App() {
 
         {/* list S */}
         <Route path="/list/s" element={<List_S />} />
+        <Route path="/spiderman3" element={<Spiderman3 />} />
 
         {/* list T */}
         <Route path="/list/t" element={<List_T />} />

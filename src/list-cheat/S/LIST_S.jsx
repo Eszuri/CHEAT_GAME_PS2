@@ -18,6 +18,6 @@ export default function List_S() {
 
 const component = [
     // { secret: "ListS-1", nama: <Tersedia url="" abjad="" /> },
-    // { secret: "ListS-2", nama: <TersediaEnd url="" abjad="" /> },
+    { secret: "ListS-2", nama: <TersediaEnd url="/spiderman3" abjad="Spiderman 3" /> },
 ]
 export const componentS = component.length;

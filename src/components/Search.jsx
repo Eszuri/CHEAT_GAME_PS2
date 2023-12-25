@@ -39,6 +39,8 @@ export default function Search() {
         { url: "/nfs-u", judul: "Need for Speed - Underground", img: ps2logo },
         // R
         { url: "/rumbleracing", judul: "Rumble Racing", img: ps2logo },
+        // S
+        { url: "/spiderman3", judul: "Spiderman 3", img: ps2logo },
         // T
         { url: "/tekken4", judul: "Tekken 4", img: ps2logo },
         { url: "/twistedmetalblack97179", judul: "Twisted Metal - Black (NTSC - U) [SCUS-97179]", img: ps2logo },

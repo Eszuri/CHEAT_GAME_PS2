@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import RedirectLink from "/src/images/redirect.svg"
-import '../Global.css'
+
 import '../local.css'
 import { Check } from './Check';
 
