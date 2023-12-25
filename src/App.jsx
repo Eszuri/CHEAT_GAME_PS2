@@ -48,7 +48,7 @@ import TwistedMetalBlack from './list-cheat/T/TwistedMetalBlack';
 import DefJamForNyEU from './list-cheat/D/DefJamForNyEU';
 import TwistedMetalBlack2 from './list-cheat/T/TwistedMetalBlack2';
 import NFS_Underground from './list-cheat/N/NFS_Underground';
-import ChatGlobal from "./components/chatGlobal";
+import ChatGlobal from "./components/ChatGlobal";
 import Spiderman3 from "./list-cheat/S/Spiderman3";
 
 
