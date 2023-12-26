@@ -50,6 +50,7 @@ import TwistedMetalBlack2 from './list-cheat/T/TwistedMetalBlack2';
 import NFS_Underground from './list-cheat/N/NFS_Underground';
 import ChatGlobal from "./components/ChatGlobal";
 import Spiderman3 from "./list-cheat/S/Spiderman3";
+import NFS_Undercover from "./list-cheat/N/NFS_Undercover";
 
 
 function App() {
@@ -119,7 +120,8 @@ function App() {
 
         {/* list N */}
         <Route path="/list/n" element={<List_N />} />
-        <Route path="/nfs-u" element={<NFS_Underground />} />
+        <Route path="/nfs-underground" element={<NFS_Underground />} />
+        <Route path="/nfs-undercover" element={<NFS_Undercover />} />
 
         {/* list O */}
         <Route path="/list/o" element={<List_O />} />

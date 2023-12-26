@@ -36,7 +36,8 @@ export default function Search() {
         { url: "/metalslug5", judul: "Metal Slug 4&5 [Disc 2]", img: ps2logo },
         { url: "/metalslug-anthology", judul: "Metal Slug Anthology", img: ps2logo },
         // N
-        { url: "/nfs-u", judul: "Need for Speed - Underground", img: ps2logo },
+        { url: "/nfs-undercover", judul: "Need for Speed - Undercover", img: ps2logo },
+        { url: "/nfs-underground", judul: "Need for Speed - Underground", img: ps2logo },
         // R
         { url: "/rumbleracing", judul: "Rumble Racing", img: ps2logo },
         // S
