@@ -51,6 +51,7 @@ import NFS_Underground from './list-cheat/N/NFS_Underground';
 import ChatGlobal from "./components/ChatGlobal";
 import Spiderman3 from "./list-cheat/S/Spiderman3";
 import NFS_Undercover from "./list-cheat/N/NFS_Undercover";
+import DownhillDomination from "./list-cheat/D/DownhillDomination";
 
 
 function App() {
@@ -81,6 +82,7 @@ function App() {
         <Route path="/defjam" element={<DefJamForNy />} />
         <Route path="/defjam-eu" element={<DefJamForNyEU />} />
         <Route path="/digruma2" element={<DigimonRumbleArena2 />} />
+        <Route path="/downhill-domination" element={<DownhillDomination />} />
 
         {/* list E */}
         <Route path="/list/e" element={<List_E />} />
