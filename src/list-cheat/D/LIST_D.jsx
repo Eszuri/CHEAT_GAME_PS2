@@ -20,6 +20,7 @@ const component = [
     { secret: "ListD-1", nama: <Tersedia url="/defjam" abjad="Def Jam - Fight for NY" /> },
     { secret: "ListD-2", nama: <Tersedia url="/defjam-eu" abjad="Def Jam - Fight for NY (Europe)" /> },
     { secret: "ListD-3", nama: <Tersedia url="/digruma2" abjad="Digimon Rumble Arena 2" /> },
-    { secret: "ListD-4", nama: <TersediaEnd url="/downhill-domination" abjad="Downhill Domination" /> },
+    { secret: "ListD-4", nama: <Tersedia url="/downhill-domination" abjad="Downhill Domination" /> },
+    { secret: "ListD-5", nama: <TersediaEnd url="/dynasty-warriors-6" abjad="Dynasty Warriors 6" /> },
 ]
 export const componentD = component.length;

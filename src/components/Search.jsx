@@ -25,6 +25,7 @@ export default function Search() {
         { url: "/defjam-eu", judul: "Def Jam Fight - For NY (Europe)", img: ps2logo },
         { url: "/digruma2", judul: "Digimon Rumble Arena 2", img: ps2logo },
         { url: "/downhill-domination", judul: "Downhill Domination", img: ps2logo },
+        { url: "/dynasty-warriors-6", judul: "Dynasty Warriors 6", img: ps2logo },
         // G
         { url: "/godhand", judul: "God Hand", img: ps2logo },
         { url: "/ghostrider", judul: "Ghost Rider", img: ps2logo },
