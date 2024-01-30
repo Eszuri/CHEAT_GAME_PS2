@@ -2,6 +2,17 @@
 patch=1,EE,20BD9AEC,extended,43960000 //Cao Pi
 
 
+
+// MUSOU MODE :MUSOU ATTACK UNLIMITED
+patch=1,EE,20BD9AF8,extended,43920000 //Cao Pi
+
+
+
+// K.O COUNT '9999'
+patch=1,EE,206F5770,extended,0000270F
+
+
+
 // cari cari cheat di web andalan GameHacking.org gabisa, akhirnya saya bikin sendiri.
 // mungkin akan lama selesai nya, agak susah cuyy cari addressnya.
 // di tunggu aja oke 😁😁
