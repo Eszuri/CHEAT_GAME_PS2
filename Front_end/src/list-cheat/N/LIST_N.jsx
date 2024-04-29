@@ -17,7 +17,8 @@ export default function List_N() {
 }
 
 const component = [
-    { secret: "ListN-1", nama: <Tersedia url="/nfs-undercover" abjad="Need for Speed - Undercover" /> },
-    { secret: "ListN-2", nama: <TersediaEnd url="/nfs-underground" abjad="Need for Speed - Underground" /> },
+    { secret: "ListN-1", nama: <Tersedia url="/naruto-ultimate-ninja-5" abjad="Naruto Shippuuden - Ultimate Ninja 5" /> },
+    { secret: "ListN-2", nama: <Tersedia url="/nfs-undercover" abjad="Need for Speed - Undercover" /> },
+    { secret: "ListN-3", nama: <TersediaEnd url="/nfs-underground" abjad="Need for Speed - Underground" /> },
 ]
 export const componentN = component.length;

@@ -57,6 +57,7 @@ import JokerCommand, { ListJokerCommand } from "./TutorialPages/JokerCommand";
 import MakePnach from "./TutorialPages/MakePnach";
 import Form from "./components/Form";
 import axios from "axios";
+import NarutoShippuudenUltimateNinja5 from './list-cheat/N/NarutoShippuudenUltimateNinja5';
 
 
 function App() {
@@ -133,6 +134,7 @@ function App() {
 
         {/* list N */}
         <Route path="/list/n" element={<List_N />} />
+        <Route path="/naruto-ultimate-ninja-5" element={<NarutoShippuudenUltimateNinja5 />} />
         <Route path="/nfs-underground" element={<NFS_Underground />} />
         <Route path="/nfs-undercover" element={<NFS_Undercover />} />
 
