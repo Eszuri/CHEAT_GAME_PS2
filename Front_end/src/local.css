@@ -1,0 +1,322 @@
+br {
+    user-select: none;
+}
+
+.scrollY {
+    overflow-y: scroll;
+}
+
+.scrollY::-webkit-scrollbar {
+    background-color: rgb(98, 98, 98);
+}
+
+.scrollY::-webkit-scrollbar-button {
+    display: none;
+}
+
+.scrollY::-webkit-scrollbar-thumb {
+    background-color: rgb(37, 183, 31);
+    border-radius: 3px;
+}
+
+/* Page NOT FOUND */
+.pilih-text {
+    animation: pilih-text-rgb 2s linear infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pilih-text-rgb {
+    0% {
+        transform: translateX(50px);
+        color: red;
+    }
+
+    50% {
+        transform: translateX(-50px);
+        color: green;
+    }
+
+    100% {
+        transform: translateX(50px);
+        color: blue;
+    }
+}
+
+/* copied muncul */
+.kopi-muncul {
+    animation: copy-kanan-kiri 2s linear;
+}
+
+@keyframes copy-kanan-kiri {
+    0% {
+        transform: translateX(0px);
+    }
+
+    10% {
+        transform: translateX(180px);
+    }
+
+    20% {
+        transform: translateX(180px);
+    }
+
+    30% {
+        transform: translateX(180px);
+    }
+
+    40% {
+        transform: translateX(180px);
+    }
+
+    50% {
+        transform: translateX(180px);
+    }
+
+    60% {
+        transform: translateX(180px);
+    }
+
+    70% {
+        transform: translateX(180px);
+    }
+
+    80% {
+        transform: translateX(180px);
+    }
+
+    90% {
+        transform: translateX(180px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.kodeRaw {
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    --tw-bg-opacity: 1;
+    background-color: rgb(212 212 216 / var(--tw-bg-opacity));
+    overflow: hidden;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.kodeRawA {
+    white-space: nowrap;
+    display: block;
+    overflow: auto;
+}
+
+.kodeRawD {
+    white-space: nowrap;
+    display: block;
+}
+
+.kodeRawB {
+    background-color: rgb(100 116 139);
+    text-align: center;
+    width: 40px;
+    display: inline-block;
+    user-select: none;
+    color: white;
+    position: absolute;
+}
+
+.kodeRawE {
+    background-color: rgb(100 116 139);
+    text-align: center;
+    width: 40px;
+    display: inline-block;
+    user-select: none;
+    color: white;
+}
+
+.kodeRawC {
+    display: inline-block;
+    padding-left: 44px;
+}
+
+.kodeRawF {
+    display: inline-block;
+    padding-left: 4px;
+}
+
+.kodeRawC::selection {
+    background-color: rgb(163, 89, 233);
+}
+
+.kodeRawF::selection {
+    background-color: rgb(163, 89, 233);
+}
+
+.rgb {
+    animation: rgb 3s infinite;
+    transition: 500ms;
+}
+
+@keyframes rgb {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: green;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    75% {
+        color: yellow;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.daftarCheat {
+    animation-name: heigh;
+    animation-duration: 0.35s;
+}
+
+/* Add Animation */
+@keyframes heigh {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 240px;
+    }
+}
+
+@keyframes blinkCursor {
+    50% {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typeAndDelete {
+
+    0%,
+    10% {
+        width: 0;
+    }
+
+    45%,
+    55% {
+        width: 10em;
+    }
+
+    /* adjust width based on content */
+    90%,
+    100% {
+        width: 0;
+    }
+}
+
+.terminal-loader {
+    border: 0.1em solid #333;
+    background-color: #1a1a1a;
+    color: #0f0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    padding: 1.5em 1em;
+    width: 12em;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.terminal-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1.5em;
+    background-color: #333;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 0 0.4em;
+    box-sizing: border-box;
+}
+
+.terminal-controls {
+    float: right;
+}
+
+.control {
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    margin-left: 0.4em;
+    border-radius: 50%;
+    background-color: #777;
+}
+
+.control.close {
+    background-color: #e33;
+}
+
+.control.minimize {
+    background-color: #ee0;
+}
+
+.control.maximize {
+    background-color: #0b0;
+}
+
+.terminal-title {
+    float: left;
+    line-height: 1.5em;
+    color: #eee;
+}
+
+.text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.2em solid green;
+    /* Cursor */
+    animation: typeAndDelete 3s steps(11) infinite,
+        blinkCursor 0.5s step-end infinite alternate;
+    margin-top: 1.5em;
+}
+
+.AnimationOpacity {
+    animation-name: opacity0-100;
+    animation-duration: 4000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opacity0-100 {
+    0% {
+        display: flex;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        display: none;
+        opacity: 0;
+    }
+}

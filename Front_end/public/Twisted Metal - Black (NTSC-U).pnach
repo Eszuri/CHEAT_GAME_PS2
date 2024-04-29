@@ -1,0 +1,82 @@
+gametitle=Twisted Metal - Black (NTSC-U) [SCUS-97179]
+
+// UNLOCK ALL CHARACTER MOVIE
+patch=1,EE,10425F58,extended,00000000
+patch=1,EE,10425F20,extended,00000000
+patch=1,EE,10425F78,extended,00000000
+patch=1,EE,10425F50,extended,00000000
+patch=1,EE,10425F18,extended,00000000
+patch=1,EE,10425F80,extended,00000000
+patch=1,EE,10425F68,extended,00000000
+patch=1,EE,10425F30,extended,00000000
+patch=1,EE,10425F7C,extended,00000000
+patch=1,EE,10425F6C,extended,00000000
+patch=1,EE,10425F34,extended,00000000
+patch=1,EE,10425F60,extended,00000000
+patch=1,EE,10425F28,extended,00000000
+patch=1,EE,10425F5C,extended,00000000
+patch=1,EE,10425F24,extended,00000000
+patch=1,EE,10425F74,extended,00000000
+patch=1,EE,10425F04,extended,00000000
+patch=1,EE,10425F64,extended,00000000
+patch=1,EE,10425F2C,extended,00000000
+patch=1,EE,10425F54,extended,00000000
+patch=1,EE,10425F1C,extended,00000000
+patch=1,EE,10425F70,extended,00000000
+patch=1,EE,10425F38,extended,00000000
+patch=1,EE,10425F84,extended,00000000
+patch=1,EE,10425F4C,extended,00000000
+
+// EXTRA AMMO & EXTRA HEALTH
+patch=1,EE,101BA0A0,extended,00000001
+patch=1,EE,10257F46,extended,00004400
+
+// INFINITE HEALTH (MOST LEVELS) 
+patch=1,EE,20257F44,extended,447A0000
+
+// INFINITE AMMO 
+patch=1,EE,201BA050,extended,03E00008
+patch=1,EE,201BA054,extended,00000000
+
+// INFINITE TURBO 
+patch=1,EE,201AAA58,extended,03E00008
+patch=1,EE,201AAA5C,extended,00000000
+
+// ALL LEVEL UNLOCKED
+patch=1,EE,10425E94,extended,00000000
+patch=1,EE,10425EC4,extended,00000000
+patch=1,EE,10425E98,extended,00000000
+patch=1,EE,10425E9C,extended,00000000
+
+// GUN NEVER OVERHEATS 
+patch=1,EE,204FAB40,extended,00000000
+
+// MACHINE GUNS NEVER OVERHEAT (ALL PLAYERS) [ASM] 
+patch=1,EE,D014B864,extended,AE2000E0
+patch=1,EE,104FAB44,extended,00000000
+patch=1,EE,2014B864,extended,00000000
+
+// IDIOT AI 
+patch=1,EE,D1636475,extended,1CD02FEB
+patch=1,EE,D0C3647D,extended,1CD02FEB
+
+// ALL CHARACTER UNLOCKED
+patch=1,EE,20425E74,extended,00000000
+patch=1,EE,20425E7C,extended,00000000
+patch=1,EE,20425E84,extended,00000000
+patch=1,EE,20425E78,extended,00000000
+patch=1,EE,20425E70,extended,00000000
+
+// MOST ENEMIES DON'T MOVE 
+patch=1,EE,2010293C,extended,00000000
+patch=1,EE,20102940,extended,00000000
+patch=1,EE,20104818,extended,03E00008
+patch=1,EE,2010481C,extended,00000000
+patch=1,EE,20105164,extended,00000000
+
+// NEVER RAINING 
+patch=1,EE,204FAB34,extended,00000000
+
+// kode udah bener, tapi belum saya coba.
+// tinggal cari CRC nya doang buat nama file ??????.pnach nya.
+// gw cari file gamenya ga ketemu ketemu.

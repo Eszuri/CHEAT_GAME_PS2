@@ -1,0 +1,43 @@
+gametitle=Ghost Rider (NTSC-U)
+
+// UNLOCK ALL CHEATS
+patch=1,EE,206BD890,extended,00000001
+
+// QUICK MAX SOULS USAGE
+patch=1,EE,2013D974,extended,00000000
+
+// UNLOCK ALL COMICS
+patch=1,EE,206BDD68,extended,00000004
+patch=1,EE,206BDDA8,extended,00000001
+patch=1,EE,206BDDE8,extended,00000001
+patch=1,EE,206BDEC8,extended,00000006
+patch=1,EE,206BDF48,extended,00000003
+patch=1,EE,206BDF88,extended,00000001
+patch=1,EE,206BDFC8,extended,00000001
+patch=1,EE,206BE248,extended,00000003
+patch=1,EE,206BE288,extended,00000001
+
+// UNLOCK ALL MOVIES
+patch=1,EE,206BE628,extended,00000001
+patch=1,EE,206BE668,extended,00000001
+patch=1,EE,206BE6C8,extended,00000001
+patch=1,EE,206BE728,extended,00000001
+
+// UNLOCK ALL GALLERY
+patch=1,EE,206BEB08,extended,00000001
+patch=1,EE,206BEB68,extended,00000001
+patch=1,EE,206BEBC8,extended,00000001
+patch=1,EE,206BEE28,extended,00000001
+patch=1,EE,206BEE88,extended,00000001
+
+// MAX ALL SPECIALS
+patch=1,EE,206BEF48,extended,00000003
+patch=1,EE,206BEFE8,extended,00000002
+patch=1,EE,206BF088,extended,00000002
+patch=1,EE,206BF168,extended,00000004
+patch=1,EE,206BF248,extended,00000004
+
+// MAX ALL NEW MOVES
+patch=1,EE,206BF368,extended,00000006
+patch=1,EE,206BF688,extended,00000006
+patch=1,EE,206BF7A8,extended,00000006
