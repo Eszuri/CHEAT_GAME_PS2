@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: assets/index-d8b40148.js
-
-Sitemap: https://cheat-game-ps2.vercel.app/sitemap.xml
