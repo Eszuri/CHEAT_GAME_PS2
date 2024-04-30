@@ -62,7 +62,7 @@ export default function ChatGlobal() {
 
     // mengambil data dari mongodb
     const getdata = async () => {
-        await axios.get(API_URL + '/read-chat-global')
+        await axios.get(API_URL + '/api/read-chat-global')
             .then((data) => {
                 setAll(data.data)
                 document.getElementById('check').style.visibility = "hidden";
@@ -79,7 +79,7 @@ export default function ChatGlobal() {
         Form.current.style.scale = 0;
         document.getElementById('check').style.visibility = "visible";
         event.preventDefault();
-        await axios.post(API_URL + '/chat-global', { nama: nama, message: komentar, date: finallyDate })
+        await axios.post(API_URL + '/api/chat-global', { nama: nama, message: komentar, date: finallyDate })
             .then(() => {
                 setnama(''); setkomentar(''); setrefresGetData(getdata());
                 document.getElementById('check').style.visibility = "hidden";

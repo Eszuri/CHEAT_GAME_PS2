@@ -69,8 +69,8 @@ function App() {
         {/* pages */}
         <Route path="/" element={<Home />} />
         <Route path="/list" element={<List />} />
-        <Route path="/report" element={<Form placeholder="Ketikkan laporan anda disini" tittle="Laporkan" pathToDB="/send-report" />} />
-        <Route path="/request" element={<Form placeholder="Ketikkan request anda disini" tittle="Request" pathToDB="/send-request" />} />
+        <Route path="/report" element={<Form placeholder="Ketikkan laporan anda disini" tittle="Laporkan" pathToDB="/api/send-report" />} />
+        <Route path="/request" element={<Form placeholder="Ketikkan request anda disini" tittle="Request" pathToDB="/api/send-request" />} />
         <Route path="/changelog" element={<Changelog />} />
         <Route path="/chat" element={<ChatGlobal />} />
         <Route path="/tutorial" element={<Tutorial />} />
