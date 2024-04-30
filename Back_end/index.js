@@ -26,4 +26,7 @@ app.use(cors(
 app.use(json());
 app.use(urlencoded({ extended: false }))
 app.use("/api/", router);
+app.get("/", (req, res) => {
+    res.send(process.env.MONGODB_URI);
+})
 app.listen(4000);
